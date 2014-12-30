@@ -175,7 +175,7 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '<%= yeoman.app %>',
-          src: '_config.yml',
+          src: '.nojekyll',
           dest: '<%= yeoman.dist %>/',
         }]
       }
