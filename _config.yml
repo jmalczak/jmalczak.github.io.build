@@ -24,7 +24,7 @@ defaults:
       layout: "default"
 
 exclude: ['img', 'css', 'js', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'node_modules']
-include: ['_pages', '_bower_components']
+include: ['_pages', '_bower_components/requirejs/require.js']
 relative_permalinks: false
 future: true
 show_drafts: true
