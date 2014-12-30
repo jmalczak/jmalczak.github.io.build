@@ -1,0 +1,53 @@
+@import "_base";
+
+.day {
+    color: $highlighColor;
+    font-size: 3.5em;
+    display: block;
+    font-weight: $thick;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 42px;
+}
+
+.month-year {
+    color: $mainColorDark;
+    font-size: 1em;
+    display: block;
+    font-weight: $mediumThick;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 2.5em;
+    font-weight: $thick;
+    color: $mainColorDark;
+    @media (max-width: $small) {
+        text-align: center;
+    }
+}
+
+.post {
+    border-bottom: 1px solid $separatorColor;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.post-tags {
+    border: 1px solid $mainColorDark;
+    @include border-radius(3px);
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+}
+
+.post-list {
+    margin-bottom: 20px;
+}
+
+.pager {
+    text-align: center;
+}

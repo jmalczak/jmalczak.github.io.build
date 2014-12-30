@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ site.description }} - {{ page.title }}</title>
+    <meta name="description" content="Developer Abroad technology and traveling blog.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <!-- build:css(app) /css/main.css -->
+    <link rel="stylesheet" href="/_bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <!-- endbuild -->
+    <script data-main="/js/main" src="/_bower_components/requirejs/require.js"></script>
+  </head>
+  <body>
+    {{ content }}
+    {% include footer.html %}
+
+    {% if site.mode != 'development' %}
+      {% include googleanalytics.html %}
+    {% endif %}
+  </body>
+</html>

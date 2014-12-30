@@ -1,0 +1,10 @@
+# humanstxt.org/
+
+# TEAM
+
+    Jakub Malczak -- Software Developer -- @malczu, @developerabroad
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, RequireJS

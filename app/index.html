@@ -1,0 +1,62 @@
+---
+layout: default
+title: Home Page
+---
+<section class="main-image">
+    <div class="main-image-content">
+        <div class="author-padding"></div>
+        <section class="author">
+            <div class="author-image">
+            </div>
+            <div class="author-description">
+                Hi, I am <b>Jakub</b>, traveling software developer currently working with <b>Microsoft .NET</b> platform to deliver <b>ASP.NET MVC</b> web applications. Besides .NET I enjoy working with dynamic languages like <b>Python</b> or <b>Ruby</b> which I use for my personal projects. Lately big fan of <b>F#</b> functional language. You can find me on twitter <a href="https://twitter.com/{{site.author.twitter}}"><b>@{{site.author.twitter}}</b></a> or <a href="https://linkedin.com/in/{{site.author.linkedin}}"><b>linked in</b></a>.
+            </div>
+        </section>
+        <section class="scroll-down">
+            <i id="slideDown" class="fa fa-chevron-down"></i>
+        </section>
+    </div>
+</section>
+<div class="content">
+    {% include navigation.html %}
+    <div class="container">
+        {% for post in paginator.posts %}
+        <article class="row post">
+        <div class="col-md-2">
+            <span>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+            <span class="day">
+            {{ post.date | date: "%d" }}
+            </span>
+            <span class="month-year">
+            {{ post.date | date: "%B %Y" }}
+            </span>
+            </time>
+            </span>
+        </div>
+        <div class="col-md-10">
+            <header>
+                <h3 class="post-title">
+                <a href="{{ site.url }}{{ post.url }}">
+                {{ post.title }}
+                </a>
+                </h3>
+            </header>
+            <p>{{ post.content | strip_html | truncatewords:60 }}</p>
+            <div>
+                {% for tag in post.categories %}<span class="post-tags"><a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a></span>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+            </div>
+        </div>
+        </article>
+        {% endfor %}
+        <nav class="pager">
+            {% if paginator.previous_page %}
+            <a href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
+            {% endif %}
+            <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            {% if paginator.next_page %}
+            <a href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
+            {% endif %}
+        </nav>
+    </div>
+</div>

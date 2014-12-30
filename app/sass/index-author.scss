@@ -1,0 +1,52 @@
+@import "_base";
+
+.author-padding {
+    @media (min-width: $small) {
+        min-height: 30%;
+    }
+    @media (max-width: $small) {
+        min-height: 10%;
+    }
+}
+
+.author {
+    margin: auto;
+    @media (min-width: $largeAuthorImage) {
+        width: $largeAuthorImage;
+    }
+    @media (max-width: $largeAuthorImage) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    display: block;
+    color: white;
+}
+
+.author b {
+    color: $highlighColor;
+}
+
+.author a {
+    color: $highlighColor;
+    @include hover-link();
+    @include link-colors($highlighColor, $highlighColor, $highlighColor, $highlighColor, $highlighColor);
+}
+
+.author-image {
+    width: 200px;
+    height: 200px;
+    @media (min-width: $small) {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    margin: auto;
+
+    @include border-radius(50px);
+    @include background(image-url('/img/jakubmalczak.jpg'));
+}
+
+.author-description {
+    padding-top: 20px;
+    font-size: 1.35em;
+}

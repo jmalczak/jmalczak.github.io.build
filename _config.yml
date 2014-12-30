@@ -1,0 +1,35 @@
+name: developerabroad.com
+description: Developer Abroad
+author:
+  name: Jakub Malczak
+  email: jmalczak@gmail.com
+  twitter: malczu
+  avatar: jm.jpg
+  email: jmalczak@gmail.com
+  twitter: malczu
+  facebook: malczu
+  github: jmalczak
+  linkedin: jakubmalczak
+  disqus: blogmalczaknet
+
+url: put_proper_url
+google_analytics_code: none
+
+# Jekyll config
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+exclude: ['img', 'css', 'js', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'node_modules']
+include: ['_pages']
+relative_permalinks: false
+future: true
+show_drafts: true
+permalink: pretty
+paginate: 10
+paginate_path: 'page:num'
+markdown: redcarpet
+pygments: true

@@ -1,0 +1,66 @@
+@import "_base";
+
+nav.top .navbar {
+    @media (min-width: $small) {
+        float: right;
+    }
+}
+
+nav.top ul.navbar {
+    @media (max-width: $small){
+        display: none;
+    }
+    @media (min-width: $small){
+        display: block;
+    }
+    margin-bottom: 0px;
+    padding-left: 1px;
+    min-height: 30px;
+}
+
+nav.top .navbar li {
+    @media (min-width: $small) {
+        display: inline-block;
+    }
+    @media (max-width: $small) {
+        text-align: center;
+    }
+    display: block;
+    padding-right: 15px;
+    font-size: 1.5em;
+}
+
+nav.top {
+    background-color: $highlighColor;
+    border-bottom: 1px solid $separatorColor;
+}
+
+.menu-mobile-toggle {
+    text-align: right;
+    padding-right: 10px;
+    @media (min-width: $small){
+        display: none;
+    }
+}
+
+.menu-mobile-toggle a {
+    font-size: 2.5em;
+}
+
+.menu-mobile-toggle .menu-mobile-close {
+    display: none;
+}
+
+#menu-mobile-open:target.top .menu-mobile-open {
+    display: none;
+}
+
+#menu-mobile-open:target.top .menu-mobile-close {
+    display: inline;
+}
+
+#menu-mobile-open:target.top ul.navbar{
+    @media (max-width: $small){
+        display: block;
+    }
+}

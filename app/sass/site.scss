@@ -1,0 +1,16 @@
+@import "_base";
+@import 'index-main';
+@import 'index-author';
+@import 'index-posts';
+@import 'site-navbar';
+@import 'site-footer';
+
+html, body {
+    height: 100%;
+    font-size: 14px;
+    color: $mainColorDark;
+}
+
+a, a:hover, a:focus {
+    color: $mainColorDark;
+}
