@@ -1,0 +1,754 @@
+[4mRunning "clean:server" (clean) task[24m
+
+[4mRunning "jekyll:check" (jekyll) task[24m
+`bundle exec jekyll doctor` was initiated.
+
+
+Jekyll output:
+Configuration file: /home/malczu/Code/jmalczak.github.io.build/_config.yml
+  Your test results are in. Everything looks fine.
+
+[4mRunning "jshint:all" (jshint) task[24m
+
+✔ No problems
+
+
+[4mRunning "csslint:check" (csslint) task[24m
+Linting app/css/index-author.css ...[31mERROR[39m
+[31m[[39m[33mL48[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL2300[39m[31m:[39m[33mC16[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2561[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2822[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3083[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3457[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3629[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4030[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (auto | none | pan-x | pan-y) but found 'manipulation'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4063[39m[31m:[39m[33mC16[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC174[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC201[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC228[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC283[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC153[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC165[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC188[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC246[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC275[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC305[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC217[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4241[39m[31m:[39m[33mC48[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4770[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5370[39m[31m:[39m[33mC1[39m[31m][39m
+The properties margin-top, margin-bottom, margin-left, margin-right can be replaced by margin. Use shorthand properties where possible. (shorthand)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6272[39m[31m:[39m[33mC10[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL7736[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL7862[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (<length> | <percentage> | <content-sizing> | auto | inherit) but found 'device-width'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+Linting app/css/index-main.css ...[31mERROR[39m
+[31m[[39m[33mL48[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL2300[39m[31m:[39m[33mC16[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2561[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2822[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3083[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3457[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3629[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4030[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (auto | none | pan-x | pan-y) but found 'manipulation'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4063[39m[31m:[39m[33mC16[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC174[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC201[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC228[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC283[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC153[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC165[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC188[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC246[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC275[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC305[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC217[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4241[39m[31m:[39m[33mC48[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4770[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5370[39m[31m:[39m[33mC1[39m[31m][39m
+The properties margin-top, margin-bottom, margin-left, margin-right can be replaced by margin. Use shorthand properties where possible. (shorthand)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6272[39m[31m:[39m[33mC10[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL7736[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL7862[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (<length> | <percentage> | <content-sizing> | auto | inherit) but found 'device-width'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+Linting app/css/index-posts.css ...[31mERROR[39m
+[31m[[39m[33mL48[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL2300[39m[31m:[39m[33mC16[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2561[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2822[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3083[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3457[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3629[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4030[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (auto | none | pan-x | pan-y) but found 'manipulation'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4063[39m[31m:[39m[33mC16[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC174[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC201[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC228[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC283[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC153[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC165[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC188[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC246[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC275[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC305[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC217[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4241[39m[31m:[39m[33mC48[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4770[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5370[39m[31m:[39m[33mC1[39m[31m][39m
+The properties margin-top, margin-bottom, margin-left, margin-right can be replaced by margin. Use shorthand properties where possible. (shorthand)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6272[39m[31m:[39m[33mC10[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL7736[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL7862[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (<length> | <percentage> | <content-sizing> | auto | inherit) but found 'device-width'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL8154[39m[31m:[39m[33mC19[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL8155[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+Linting app/css/site-footer.css ...[31mERROR[39m
+[31m[[39m[33mL48[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL2300[39m[31m:[39m[33mC16[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2561[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2822[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3083[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3457[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3629[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4030[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (auto | none | pan-x | pan-y) but found 'manipulation'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4063[39m[31m:[39m[33mC16[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC174[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC201[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC228[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC283[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC153[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC165[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC188[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC246[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC275[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC305[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC217[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4241[39m[31m:[39m[33mC48[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4770[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5370[39m[31m:[39m[33mC1[39m[31m][39m
+The properties margin-top, margin-bottom, margin-left, margin-right can be replaced by margin. Use shorthand properties where possible. (shorthand)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6272[39m[31m:[39m[33mC10[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL7736[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL7862[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (<length> | <percentage> | <content-sizing> | auto | inherit) but found 'device-width'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+Linting app/css/site-navbar.css ...[31mERROR[39m
+[31m[[39m[33mL48[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL2300[39m[31m:[39m[33mC16[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2561[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL2822[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3083[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL3457[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3536[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL3629[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4030[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (auto | none | pan-x | pan-y) but found 'manipulation'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL4063[39m[31m:[39m[33mC16[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4089[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4116[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4143[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC174[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC201[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC228[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC283[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4170[39m[31m:[39m[33mC153[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC171[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC195[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC225[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC255[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC285[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4197[39m[31m:[39m[33mC316[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC165[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC188[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC246[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC275[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC305[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4224[39m[31m:[39m[33mC217[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4241[39m[31m:[39m[33mC48[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4257[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL4770[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5370[39m[31m:[39m[33mC1[39m[31m][39m
+The properties margin-top, margin-bottom, margin-left, margin-right can be replaced by margin. Use shorthand properties where possible. (shorthand)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5624[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC17[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5733[39m[31m:[39m[33mC60[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5957[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5966[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5975[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5984[39m[31m:[39m[33mC26[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL5993[39m[31m:[39m[33mC29[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC1[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6002[39m[31m:[39m[33mC28[39m[31m][39m
+Unqualified attribute selectors are known to be slow. Unqualified attribute selectors are known to be slow. (unqualified-attributes)
+[31m[[39m[33mL6272[39m[31m:[39m[33mC10[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL7736[39m[31m:[39m[33mC3[39m[31m][39m
+Expected end of value but found '\9'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL7862[39m[31m:[39m[33mC3[39m[31m][39m
+Expected (<length> | <percentage> | <content-sizing> | auto | inherit) but found 'device-width'. Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property. (known-properties)
+[31m[[39m[33mL8156[39m[31m:[39m[33mC18[39m[31m][39m
+Values of 0 shouldn't have units specified. You don't need to specify units when a value is 0. (zero-units)
+[31m[[39m[33mL8221[39m[31m:[39m[33mC1[39m[31m][39m
+Don't use IDs in selectors. Selectors should not contain IDs. (ids)
+[31m[[39m[33mL8226[39m[31m:[39m[33mC1[39m[31m][39m
+Don't use IDs in selectors. Selectors should not contain IDs. (ids)
+[31m[[39m[33mL8232[39m[31m:[39m[33mC3[39m[31m][39m
+Don't use IDs in selectors. Selectors should not contain IDs. (ids)
+[33mWarning: Task "csslint:check" failed. Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2014-12-30 10:56:40 UTC)
+loading tasks  662ms  ▇▇▇▇▇▇▇▇▇ 18%
+jekyll:check    1.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 36%
+jshint:all     117ms  ▇▇ 3%
+csslint:check   1.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 43%
+Total 3.7s

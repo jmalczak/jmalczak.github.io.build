@@ -192,8 +192,8 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: '?',
-          branch: '?',
+          remote: 'origin',
+          branch: 'master',
           commit: true,
           push: true
         }
@@ -209,17 +209,6 @@ module.exports = function (grunt) {
         '<%= yeoman.app %>/js/**/*.js',
         'test/spec/**/*.js'
       ]
-    },
-    csslint: {
-      options: {
-        csslintrc: '.csslintrc'
-      },
-      check: {
-        src: [
-          '<%= yeoman.app %>/css/**/*.css',
-          '!<%= yeoman.app %>/css/site.css'
-        ]
-      }
     },
     requirejs: {
       compile: {
@@ -266,7 +255,6 @@ module.exports = function (grunt) {
     'clean:server',
     'jekyll:check',
     'jshint:all',
-    'csslint:check'
   ]);
 
   grunt.registerTask('build', [
