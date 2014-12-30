@@ -38,3 +38,6 @@ app/css
 dist
 node_modules
 .tmp
+
+# Sublime
+site.sublime-workspace
