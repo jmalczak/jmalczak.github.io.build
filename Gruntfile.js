@@ -177,6 +177,13 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>',
           src: '.nojekyll',
           dest: '<%= yeoman.dist %>/',
+        },
+        {
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>',
+          src: 'CNAME',
+          dest: '<%= yeoman.dist %>/',
         }]
       }
     },
