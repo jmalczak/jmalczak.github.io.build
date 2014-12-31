@@ -1,14 +1,16 @@
 define([], function(){
 
 	window.getDetails = function(){
-		var s = "---------------------------\n"
-		var f = "Jakub Malczak\n"
-
-		var n = "jmalczak";
-		var at = "@";
-		var g = "gmail.com\n";
+		var s = '---------------------------';
+		var f = 'Jakub Malczak';
+		var n = 'jmalczak';
+		var at = '@';
+		var g = 'gmail.com';
 		
-		return s + f + n + at + g + s;
+		console.log(s);
+		console.log(f);
+		console.log(n + at + g);
+		console.log(s);
 	};
 
 	return undefined;
