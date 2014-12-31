@@ -5,7 +5,7 @@ require.config({
     }
 });
 
-require(['plugins', 'site'], function(plugins, site){
+require(['plugins', 'site', 'details'], function(plugins, site){
     plugins.init();
     site.init();
 });
