@@ -12,6 +12,4 @@ define([], function(){
 		console.log(n + at + g);
 		console.log(s);
 	};
-
-	return undefined;
 });
