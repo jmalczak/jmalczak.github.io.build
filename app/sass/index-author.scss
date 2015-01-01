@@ -4,9 +4,6 @@
     @media (min-width: $small) {
         min-height: 30%;
     }
-    @media (max-width: $small) {
-        min-height: 10%;
-    }
 }
 
 .author {
@@ -48,5 +45,10 @@
 
 .author-description {
     padding-top: 20px;
-    font-size: 1.35em;
+    @media (min-width: $small){
+        font-size: 1.35em;    
+    }
+    @media (max-width: $small) {
+        font-size: 1.1em;       
+    }
 }
