@@ -6,7 +6,6 @@
     height: 100%;
     @include background(radial-gradient(rgba(0, 0, 0, 0.6), rgba(10, 10, 10, 0.3) 700px), image-url('/img/background.jpg'));
     background-size: cover;
-    min-height: 600px;
 }
 
 .scroll-down {
