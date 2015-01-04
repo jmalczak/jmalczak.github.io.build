@@ -1,17 +1,21 @@
 ---
 layout: page
 ---
-<div>
-    <h1>{{ page.title }}</h1>
-    <p>by <strong>{{ site.author.name }}</strong> &#8212;
-    {% assign tagsize = page.tags.size %}
-    {% if tagsize != 0 %}on {% for tag in page.tags %}
-    <a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong>
-    </p>
-</div>
-<div>
-    {{ content }}
-</div>
+<article>
+    <header>
+        <div>
+            <h1>{{ page.title }}</h1>
+            <p>by <strong>{{ site.author.name }}</strong> &#8212;
+            {% assign tagsize = page.tags.size %}
+            {% if tagsize != 0 %}on {% for tag in page.tags %}
+            <a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong>
+            </p>
+        </div>
+    </header>
+    <div>
+        {{ content }}
+    </div>
+</article>
 {% if site.author.disqus %}
 <div>
     <h2>Comments</h2>
