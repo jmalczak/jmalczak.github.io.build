@@ -22,7 +22,7 @@ define(['jquery', 'cookie'], function($, cookie) {
         self.scrollToContentIfUserIsReturning = function(){
             var visitsCookie = cookie.getCookie('visits');
 
-            if(visitsCookie == undefined){
+            if(visitsCookie === undefined){
                 cookie.setCookie('visits', 1);
             }
             else if( parseInt(visitsCookie) > 3){
