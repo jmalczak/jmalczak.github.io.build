@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Process killer."
-description: "Small application which kills background processes"
-modified: 2014-11-15 10:24:30 +0100
+description: "Small application which kills background processes for you. It monitors list of available processes and kill new ones every time they appear"
 category: programming
-comments: true
-featured: false
 ---
 I had some issues with my Elan Microelectronics notebook touchpad after upgrade to Windows 8. I have downloaded drivers for my old Samsung QX-410 notebook from original Samsung homepage. Unfortunately last supported operating system is Windows 7, so I had not much choice but use those drivers. Apparently they work fine for most of the time, bu sometimes ETDCtrl process show new unclickable, hidden window which is visible on taskbar. One way to get rid of it, is to kill ETDCtrl process. I have created small application to monitor list of processes and when specific process will be fired, application will kill it instantly. You can find source code and binaries on GitHub : 
 

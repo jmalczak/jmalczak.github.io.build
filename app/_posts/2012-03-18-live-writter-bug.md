@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Wordpress 3.2.1 and Windows Live Writter bug."
-description: "Wordpress 3.2.1 and Windows Live Writter bug."
+description: "How to fix Wordpress 3.2.1 and Windows Live Writter blog discovery bug."
 category: posting
-tags: [post, live writter, bug, posting]
-comments: true
-share: true
 ---
 
 Lately I was trying to configure Wordpress 3.2.1 to work with Windows Live Writer. 
