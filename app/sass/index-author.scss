@@ -17,6 +17,10 @@
     }
     display: block;
     color: white;
+
+    @media (max-width: $small) {
+        padding-top: 10px;
+    }
 }
 
 .author b {
@@ -24,9 +28,7 @@
 }
 
 .author a {
-    color: $highlighColor;
-    @include hover-link();
-    @include link-colors($highlighColor, $highlighColor, $highlighColor, $highlighColor, $highlighColor);
+    @include highlight-color;
 }
 
 .author-image {

@@ -146,7 +146,7 @@ module.exports = function (grunt) {
     },
     copy: {
       dist: {
-        files: [{
+         files: [{
           expand: true,
           dot: true,
           cwd: '<%= yeoman.app %>',

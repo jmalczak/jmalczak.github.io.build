@@ -1,9 +1,6 @@
-@import "_base";
-@import 'index-main';
-@import 'index-author';
-@import 'index-posts';
-@import 'site-navbar';
-@import 'site-footer';
+@import '../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+@import 'main-navbar';
+@import 'main-footer';
 
 html, body {
     height: 100%;
