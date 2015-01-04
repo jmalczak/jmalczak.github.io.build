@@ -28,7 +28,7 @@ define(['jquery', 'cookie'], function($, cookie) {
             else if( parseInt(visitsCookie) > 3){
                 var content = $(self.settings.contentSelector);
 
-                if(content != undefined){
+                if(content !== undefined){
                     document.body.scrollTop = content.offset().top;
                 }
             }
