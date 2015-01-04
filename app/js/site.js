@@ -26,7 +26,11 @@ define(['jquery', 'cookie'], function($, cookie) {
                 cookie.setCookie('visits', 1);
             }
             else if( parseInt(visitsCookie) > 3){
-                document.body.scrollTop = $(self.settings.contentSelector).offset().top;
+                var content = $(self.settings.contentSelector);
+
+                if(content != undefined){
+                    document.body.scrollTop = content.offset().top;
+                }
             }
             else{
                 var numberOfVisits = parseInt(visitsCookie);
