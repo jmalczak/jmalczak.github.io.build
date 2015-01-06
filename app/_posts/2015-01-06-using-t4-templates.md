@@ -4,7 +4,7 @@ title: "Using T4 templates to generate C# dictionary from SQL table values."
 description: "How to use Microsoft T4 templating engine to generate C# dictionary classes from SQL table values."
 category: programming
 --- 
-When you store your data in SQL relational database. It's always good to have your dictionary entries in database as well. Thanks to that you can keep referential integrity between your data. Let me show you an example. If we would like to model our User table following way:
+When you store your data in a SQL relational database, it's always worth considering whether to have your dictionary entries not only in C# code, but in database as well. Thanks to that you can keep referential integrity between your data. Let me show you an example. If we would like to model our User table in the following way:
 
 {% highlight sql %}
 CREATE TABLE [dbo].[User] (
@@ -14,7 +14,7 @@ CREATE TABLE [dbo].[User] (
 )
 {% endhighlight %}
 
-As you can see, we have simple user with Id, Name and user status. Since status is just simple GUID, you can insert there whatever you want, except NULL. You probably have some kind of guard clause in your C# code which prevents you from inserting invalid data. But wouldn't be cool if we could use SQL referential integrity to make sure that data will be consistent, even if you would like to insert row manually? To do that, we can add another table called UserStatus:
+As you can see, we have a simple user with Id, Name and user status. Since status is just a simple GUID, you can insert whatever you want there, except NULL. You probably have some kind of a guard clause in your C# code which prevents you from inserting invalid data. But wouldn't be cool if we could use SQL referential integrity to make sure that data will be consistent, even if you would like to insert row manually? To do that, we can add another table called UserStatus:
 
 {% highlight sql %}
 CREATE TABLE [dbo].[UserStatus] (
@@ -23,13 +23,13 @@ CREATE TABLE [dbo].[UserStatus] (
 )
 {% endhighlight %}
  
-And now we can add foreign key from User to UserStatus table. This is done by adding following line to User table definition:
+And now we can add a foreign key from User to UserStatus table. This is done by adding the following line to User table definition:
 
 {% highlight sql %}
 CONSTRAINT [FK_dbo.User_dbo.UserStatus_StatusId] FOREIGN KEY ([StatusId]) REFERENCES [dbo].[UserStatus]([Id])
 {% endhighlight %}
 
-If you will try to insert new user with StatusId not in UserStatus table, you will receive error. Now everything is fine, but you have to keep 2 copies of user status, one in your C# code in form of enum or more complex dictionary class, and the second one in your database. It's often the case that those 2 copies are out of sync. To get rid of this problem we will keep only one copy of user statuses and we will generate C# class which will be used in our C# code. T4 template is just a perfect for this kind of a job. First of all, let's make sure that all user statuses are inserted into database table. To do this, we can create SQL post deployment script which will be used to add or edit statuses. Script can look like this:
+If you will try to insert a new user with StatusId not in UserStatus table, you will receive an error. Now everything is fine, but you have to keep 2 copies of user status, one in your C# code in form of enum or more complex dictionary class, and the second one in your database. It's often the case that those 2 copies are out of sync. To get rid of this problem we will keep only one copy of user statuses and we will generate C# class which will be used in our C# code. T4 template fits perfectly for this kind of a job. First of all, let's make sure that all user statuses are inserted into database table. To do this, we can create SQL post deployment script which will be used to either add or edit statuses. Script can look like this:
 
 {% highlight sql %}
 DECLARE @Id UNIQUEIDENTIFIER
@@ -41,7 +41,7 @@ BEGIN
 END
 {% endhighlight %}
 
-Next step is to create T4 template to generate C# classes based on data in dictionary table. We need a way to tell our template which tables are the dictionary tables and which column will be used as Id and which as Name. Simple XML file can hold that information:
+Next step is to create T4 template to generate C# classes based on data in dictionary table. We need a way to tell our template which tables are the dictionary tables and which column will be used as Id and which one as Name. Simple XML file can hold that information:
 
 {% highlight xml %}
 <?xml version="1.0" encoding="utf-8" ?>
@@ -50,7 +50,7 @@ Next step is to create T4 template to generate C# classes based on data in dicti
 </dictionaries>
 {% endhighlight %}
 
-Additional dictionaryname attribute will be used to name C# class so it doesn't have to follow the same name as database table. Three more DTO classes are used to hold intermediate values during dictionary generation.
+Additional dictionaryname attribute will be used to name C# class so it doesn't have to follow the same name as database table. Three more DTO classes are used to hold the intermediate values during dictionary generation.
 
 {% highlight csharp %}
 public class DictionaryItemDefinition
@@ -81,7 +81,7 @@ public class DictionaryTable
 }
 {% endhighlight %}
 
-DictionaryTable class represents table with list of dictionary entries. So in our example this is instance holding UserStatus table and New value as DictionaryItem.
+DictionaryTable class represents table with the list of dictionary entries. So in our example this is the instance which is holding UserStatus table and New value as DictionaryItem.
 
 {% highlight csharp %}
 public class DictionaryItem
@@ -145,7 +145,7 @@ public DictionaryTable GetDictionaryTable(DictionaryItemDefinition itemDefinitio
 }
 {% endhighlight %}
 
-Having DbDictionaryHelper, we can finally create DbDictionary.tt template which just invoke functionality from helper class and iterate over the results to create code blocks:
+Having DbDictionaryHelper, we can finally create DbDictionary.tt template which just invoke the functionality from helper class and iterate over the results to create code blocks:
 
 {% highlight csharp %}
 <#@ template debug="true" hostspecific="true" language="C#" #>
@@ -208,7 +208,7 @@ namespace WebSiteCore.Common.Models.Domain.EntityDictionary
 }
 {% endhighlight %}
 
-Syntax of T4 is not one of my favorites but you can get used to it if you use good editor with proper code highlighting. Final generated class for our simple example will look like this:
+Syntax of T4 is not among my favorites but you can get used to it if you use good editor with a proper code highlighting. Final generated class for our simple example will look like this:
 
 {% highlight csharp %}
 namespace WebSiteCore.Common.Models.Domain.EntityDictionary
@@ -239,4 +239,4 @@ If (status == UserStatus.New.Id)
 }
 {% endhighlight %}
 
-Now every time you add new dictionary, it's enough to add it to XML definition and regenerate T4 by jus saving it again. Also if you insert new values and save T4, values will be updated. Nice way of running all of your templates is to add step in build process to generate those for you, or use BUILD -> Transform All T4 Templates menu option in Visual Studio 2013. Full example is available on GitHub as a [Gist](https://gist.github.com/jmalczak/d2b8971c47909539778b).
+Now every time you add a new dictionary, it's enough to add it to XML definition and regenerate T4 by jus saving it again. Also if you insert the new values and save T4, those values will get updated. Another nice way of running all of your templates is to add a step in build process to generate those for you, or use BUILD -> Transform All T4 Templates menu option in Visual Studio 2013. Full example is available on GitHub as a [Gist](https://gist.github.com/jmalczak/d2b8971c47909539778b).
