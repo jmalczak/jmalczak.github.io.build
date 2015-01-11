@@ -124,7 +124,7 @@ public class ResourceService
 
 To generate multiple JavaScript files from the T4 template, we need to use [T4Toolbox](https://t4toolbox.codeplex.com/) Visual Studio extension. You can either download it from [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/7f9bd62f-2505-4aa4-9378-ee7830371684) or using extension manager:
 
-<img class="img-responsive center-block" src="/img/t4toolbox.jpg" alt="T4 Toolbox" />
+<img class="img-responsive center-block" src="/img/t4toolboxInstall.jpg" alt="T4 Toolbox" />
 
 It is possible to do the same without T4Toolbox, but our template would be much bigger, since we would have to not only create many files, but also use Visual Studio automation to add those files to a current project. By using T4Toolbox, it's no longer a problem, since extension will do the above actions for us. After installation and restart, it's time to add resource.tt template:
 
