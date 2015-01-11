@@ -2,7 +2,7 @@
 layout: post
 title: "Using T4 templates to generate C# dictionary from SQL table values."
 description: "How to use Microsoft T4 templating engine to generate C# dictionary classes from SQL table values."
-category: programming
+category: [programming, t4, dictionary]
 --- 
 When you store your data in a SQL relational database, it's always worth considering whether to have your dictionary entries not only in C# code, but in database as well. Thanks to that you can keep referential integrity between your data. Let me show you an example. If we would like to model our User table in the following way:
 
