@@ -10,11 +10,11 @@ I had some issues with my Elan Microelectronics notebook touchpad after upgrade 
 
 One way to run it, is from Windows auto start. Just type Win + R and paste following line for Windows 8:
 
-{% highlight powershell %} AppData%\Microsoft\Windows\Start Menu\Programs\Startup {% endhighlight %}
+{% highlight powershell linenos=table %} AppData%\Microsoft\Windows\Start Menu\Programs\Startup {% endhighlight %}
 
 and paste shortcut to Process Killer application. Next open up ProcessList.txt to configure processes to kill. Configuration file consist of list of processes. Each process name is in separate line:
 
-{% highlight ini %}
+{% highlight ini linenos=table %}
 totalcmd
 totalcmd;12
 {% endhighlight %}

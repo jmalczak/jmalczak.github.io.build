@@ -15,9 +15,46 @@ $thick: 800;
 }
 
 .highlightColor {
-	color: $highlighColor;
+    color: $highlighColor;
 }
 
 a.highlightColor {
-	@include highlight-color;
+    @include highlight-color;
+}
+
+table.highlighttable {
+    overflow-x:auto;
+    display:block;
+}
+
+table.highlighttable td.code {
+    width:100%;
+}
+
+table.highlighttable pre {
+    border-radius: inherit;
+    border: inherit;
+    padding-bottom: 0px;
+}
+
+table.highlighttable {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+table.highlighttable .linenos {
+    border-right: 1px solid #ccc;
+    background-color: rgb(220, 220, 220);
+}
+
+table.highlighttable .linenos pre {
+    background-color: rgb(220, 220, 220);
+}
+
+table.highlighttable pre code {
+    white-space: pre;
+}
+
+table.highlighttable {
+    margin-bottom: 9px;
 }

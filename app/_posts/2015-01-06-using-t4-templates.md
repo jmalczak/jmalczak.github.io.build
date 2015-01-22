@@ -6,7 +6,7 @@ category: [programming, t4, dictionary]
 --- 
 When you store your data in a SQL relational database, it's always worth considering whether to have your dictionary entries not only in C# code, but in database as well. Thanks to that you can keep referential integrity between your data. Let me show you an example. If we would like to model our User table in the following way:
 
-{% highlight sql %}
+{% highlight sql linenos=table %}
 CREATE TABLE [dbo].[User] (
     [Id]                   UNIQUEIDENTIFIER NOT NULL,
     [Name]                 NVARCHAR (256)   NULL,
@@ -16,7 +16,7 @@ CREATE TABLE [dbo].[User] (
 
 As you can see, we have a simple user with Id, Name and user status. Since status is just a simple GUID, you can insert whatever you want there, except NULL. You probably have some kind of a guard clause in your C# code which prevents you from inserting invalid data. But wouldn't be cool if we could use SQL referential integrity to make sure that data will be consistent, even if you would like to insert row manually? To do that, we can add another table called UserStatus:
 
-{% highlight sql %}
+{% highlight sql linenos=table %}
 CREATE TABLE [dbo].[UserStatus] (
     [Id]                   UNIQUEIDENTIFIER NOT NULL,
     [Name]                 NVARCHAR (256)   NULL,
@@ -25,13 +25,13 @@ CREATE TABLE [dbo].[UserStatus] (
  
 And now we can add a foreign key from User to UserStatus table. This is done by adding the following line to User table definition:
 
-{% highlight sql %}
+{% highlight sql linenos=table %}
 CONSTRAINT [FK_dbo.User_dbo.UserStatus_StatusId] FOREIGN KEY ([StatusId]) REFERENCES [dbo].[UserStatus]([Id])
 {% endhighlight %}
 
 If you will try to insert a new user with StatusId not in UserStatus table, you will receive an error. Now everything is fine, but you have to keep 2 copies of user status, one in your C# code in form of enum or more complex dictionary class, and the second one in your database. It's often the case that those 2 copies are out of sync. To get rid of this problem we will keep only one copy of user statuses and we will generate C# class which will be used in our C# code. T4 template fits perfectly for this kind of a job. First of all, let's make sure that all user statuses are inserted into database table. To do this, we can create SQL post deployment script which will be used to either add or edit statuses. Script can look like this:
 
-{% highlight sql %}
+{% highlight sql linenos=table %}
 DECLARE @Id UNIQUEIDENTIFIER
 SET @Id = 'B58100F1-B66B-4FC1-B9AC-37DE29FA3C08'
 
@@ -43,7 +43,7 @@ END
 
 Next step is to create T4 template to generate C# classes based on data in dictionary table. We need a way to tell our template which tables are the dictionary tables and which column will be used as Id and which one as Name. Simple XML file can hold that information:
 
-{% highlight xml %}
+{% highlight xml linenos=table %}
 <?xml version="1.0" encoding="utf-8" ?>
 <dictionaries>
   <dictionary table="dbo.UserStatus" idcolumn="Id" namecolumn="Name" dictionaryname="UserStatus" />
@@ -52,7 +52,7 @@ Next step is to create T4 template to generate C# classes based on data in dicti
 
 Additional dictionaryname attribute will be used to name C# class so it doesn't have to follow the same name as database table. Three more DTO classes are used to hold the intermediate values during dictionary generation.
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 public class DictionaryItemDefinition
 {
     public string TableName { get; set; }
@@ -67,7 +67,7 @@ public class DictionaryItemDefinition
 
 This is the class which is used to store data from XML file. Each row in XML is parsed and returned as DictionaryItemDefinition object.
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 public class DictionaryTable
 {
     public DictionaryTable()
@@ -83,7 +83,7 @@ public class DictionaryTable
 
 DictionaryTable class represents table with the list of dictionary entries. So in our example this is the instance which is holding UserStatus table and New value as DictionaryItem.
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 public class DictionaryItem
 {
     public string Name { get; set; }
@@ -94,7 +94,7 @@ public class DictionaryItem
 
 And last one holds dictionary values, so in our case name New and proper GUID value. All those classes are used in DbDictionaryHelper. Since it's much nicer to write in C# code in C# classes not in T4 templates, most of the code is encapsulated in DbDictionaryHelper. Then GetDictionaryDefinitionItems() helper method is used in T4 template to parse XML file and retrieve dictionary definition:
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 public List<DictionaryItemDefinition> GetDictionaryDefinitionItems()
 {
     var document = XDocument.Load(this.configFilePath);
@@ -114,7 +114,7 @@ public List<DictionaryItemDefinition> GetDictionaryDefinitionItems()
 
 For each entry we will query corresponding table in database and get values for columns specified as Id and Name in GetDictionaryTable() method:
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 public DictionaryTable GetDictionaryTable(DictionaryItemDefinition itemDefinition)
 {
     using (var connection = new SqlConnection(this.WebSiteCoreConnectionString))
@@ -147,7 +147,7 @@ public DictionaryTable GetDictionaryTable(DictionaryItemDefinition itemDefinitio
 
 Having DbDictionaryHelper, we can finally create DbDictionary.tt template which just invoke the functionality from helper class and iterate over the results to create code blocks:
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 <#@ template debug="true" hostspecific="true" language="C#" #>
 <#@ assembly name="System.Core" #>
 <#@ assembly name="System.Data" #>
@@ -210,7 +210,7 @@ namespace WebSiteCore.Common.Models.Domain.EntityDictionary
 
 Syntax of T4 is not among my favorites but you can get used to it if you use good editor with a proper code highlighting. Final generated class for our simple example will look like this:
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 namespace WebSiteCore.Common.Models.Domain.EntityDictionary
 {
     public class UserStatus
@@ -232,7 +232,7 @@ namespace WebSiteCore.Common.Models.Domain.EntityDictionary
 
 And can be used in C# code in following way:
 
-{% highlight csharp %}
+{% highlight csharp linenos=table %}
 If (status == UserStatus.New.Id) 
 {
     //You code

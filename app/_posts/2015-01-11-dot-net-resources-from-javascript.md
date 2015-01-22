@@ -10,7 +10,7 @@ It is often the case, that you would like to use the same set of resources from 
 ### HTTP handler or lightweight service
 You can find an example of HTTP handler implementation on Rick Strahl [web page](http://weblog.west-wind.com/posts/2009/Apr/02/A-Localization-Handler-to-serve-ASPNET-Resources-to-JavaScript). It is a simple HTTP handler which returns JavaScript object for either local or global resource set. In order to use it you should add JavaScript script tag with src set to URL of your HTTP handler. Culture is provided via query string and included in the original script URL. Example code:
 
-{% highlight C# %}
+{% highlight C# linenos=table %}
 <script src='" + 
     Westwind.Globalization.JavaScriptResourceHandler.GetJavaScriptGlobalResourcesUrl("globalRes","Resources") + 
     "' type='text/javascript'>
@@ -19,7 +19,7 @@ You can find an example of HTTP handler implementation on Rick Strahl [web page]
 
 And this can embeed following JavaScript in your page:
 
-{% highlight javascript %}
+{% highlight javascript linenos=table %}
 var globalRes = {
     Today: 'Heute',
     Yesterday: 'Gestern'
@@ -31,7 +31,7 @@ Lately when Microservices are becoming more and more popular, the same, may be a
 ### Inline localization embedding
 This is the easiest method. In your view engine files (.aspx or .cshtml), you can create explicit resource object, and select only those resources which are really needed in JavaScript code. For example, you can create localization object like this:
 
-{% highlight javascript %}
+{% highlight javascript linenos=table %}
 var localization = {
     Today: '@Resources.YourResourceClass.Today',
     Yesterday: '@Resources.YourResourceClass.Yesterday'
@@ -43,7 +43,7 @@ This will make sure that your localization object will be rendered correctly in 
 ### JavaScript resource files generated using T4 templates
 Another approach to the problem, may be to generate set of JavaScript files which will hold translated resources in all of available languages. First step would be to create class to get all resources available in our application in the every supported culture. We will use ResourceModel class for this reason:
 
-{% highlight C# %}
+{% highlight csharp linenos=table %}
 public class ResourceModel
 {
     public string ResourceFileName { get; set; }
@@ -58,13 +58,13 @@ public class ResourceModel
 
 To get list of resources, first we need to get all resource files by using GetManifestResourceNames method on assembly to which resources are compiled into. In my case it's Shared assembly.
 
-{% highlight C# %}
+{% highlight C# linenos=table %}
 typeof(Shared).Assembly.GetManifestResourceNames()
 {% endhighlight %}
 
 Next we parse resource set name and get all resources for every set. Entire ResourceService class is available below. It will be used within T4 template to generate single JavaScript file per culture.
 
-{% highlight C# %}
+{% highlight C# linenos=table %}
 public class ResourceService
 {
     private const string FileNameGroup = "fileName";
@@ -128,7 +128,7 @@ To generate multiple JavaScript files from the T4 template, we need to use [T4To
 
 It is possible to do the same without T4Toolbox, but our template would be much bigger, since we would have to not only create many files, but also use Visual Studio automation to add those files to a current project. By using T4Toolbox, it's no longer a problem, since extension will do the above actions for us. After installation and restart, it's time to add resource.tt template:
 
-{% highlight C# %}
+{% highlight C# linenos=table %}
 <#@ template language="C#" debug="True" hostspecific="True" #>
 <#@ include file="T4Toolbox.tt" #>
 <#@ output extension="js" #>
@@ -208,7 +208,7 @@ Now it's time to add something to resource files and test if everything works fi
 
 Generated files are named in the same way as the original resources. They have culture name as part of extension, so you can load just specific culture, not all at once. Example file for default culture:
 
-{% highlight javascript %}
+{% highlight javascript linenos=table %}
 webSiteCore.Resource = (function (){
     var resources = {
                 Account: {

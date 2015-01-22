@@ -21,8 +21,8 @@ Finally I have managed to find a solution to my problems. At a first sight it di
 For some reason Wordpress sends incorrect response length during invocation of getUserBlogs method. The way to fix it is to edit class-IXR.php file, located under wp-includes. 
 You have to locate following line:
 
-{% highlight html %} header(<span class="str">'Content-Length: '</span>.$length); {% endhighlight %}
+{% highlight html linenos=table %} header(<span class="str">'Content-Length: '</span>.$length); {% endhighlight %}
 and replace it with:
-{% highlight html %} header(<span class="str">'Content-Length: '</span>.$length + 2); {% endhighlight %}
+{% highlight html linenos=table %} header(<span class="str">'Content-Length: '</span>.$length + 2); {% endhighlight %}
 
 This small change fix the problem and let you use Windows Live Writer to publish your posts.
