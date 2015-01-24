@@ -5,6 +5,8 @@ $largeAuthorImage: 800px;
 $mainColorDark: #333333;
 $highlighColor: #17AEBF;
 $separatorColor: rgb(217, 217, 217);
+$codeHighlightColor: rgb(220, 220, 220);
+$codeHighlightColorBackground: rgb(245, 245, 245);
 $mediumThick: 500;
 $thick: 800;
 
@@ -44,11 +46,15 @@ table.highlighttable {
 
 table.highlighttable .linenos {
     border-right: 1px solid #ccc;
-    background-color: rgb(220, 220, 220);
+    background-color: $codeHighlightColor;
+}
+
+table.highlighttable .code {
+    background-color: $codeHighlightColorBackground;
 }
 
 table.highlighttable .linenos pre {
-    background-color: rgb(220, 220, 220);
+    background-color: $codeHighlightColor;
 }
 
 table.highlighttable pre code {
