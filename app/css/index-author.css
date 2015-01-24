@@ -1,0 +1,176 @@
+/* line 17, ../sass/_base.scss */
+.highlightColor {
+  color: #17AEBF;
+}
+
+/* line 21, ../sass/_base.scss */
+a.highlightColor {
+  color: #17AEBF;
+  text-decoration: none;
+  color: #17AEBF;
+}
+/* line 4, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_hover-link.scss */
+a.highlightColor:hover, a.highlightColor:focus {
+  text-decoration: underline;
+}
+/* line 18, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+a.highlightColor:visited {
+  color: #17AEBF;
+}
+/* line 21, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+a.highlightColor:focus {
+  color: #17AEBF;
+}
+/* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+a.highlightColor:hover {
+  color: #17AEBF;
+}
+/* line 27, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+a.highlightColor:active {
+  color: #17AEBF;
+}
+
+/* line 25, ../sass/_base.scss */
+table.highlighttable {
+  overflow-x: auto;
+  display: block;
+}
+
+/* line 30, ../sass/_base.scss */
+table.highlighttable td.code {
+  width: 100%;
+}
+
+/* line 34, ../sass/_base.scss */
+table.highlighttable pre {
+  border-radius: inherit;
+  border: inherit;
+  padding-bottom: 0px;
+}
+
+/* line 40, ../sass/_base.scss */
+table.highlighttable {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+/* line 45, ../sass/_base.scss */
+table.highlighttable .linenos {
+  border-right: 1px solid #ccc;
+  background-color: gainsboro;
+}
+
+/* line 50, ../sass/_base.scss */
+table.highlighttable .linenos pre {
+  background-color: gainsboro;
+}
+
+/* line 54, ../sass/_base.scss */
+table.highlighttable pre code {
+  white-space: pre;
+}
+
+/* line 58, ../sass/_base.scss */
+table.highlighttable {
+  margin-bottom: 9px;
+}
+
+@media (min-width: 600px) {
+  /* line 3, ../sass/index-author.scss */
+  .author-padding {
+    min-height: 30%;
+  }
+}
+
+/* line 9, ../sass/index-author.scss */
+.author {
+  margin: auto;
+  display: block;
+  color: white;
+}
+@media (min-width: 800px) {
+  /* line 9, ../sass/index-author.scss */
+  .author {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  /* line 9, ../sass/index-author.scss */
+  .author {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 9, ../sass/index-author.scss */
+  .author {
+    padding-top: 10px;
+  }
+}
+
+/* line 26, ../sass/index-author.scss */
+.author b {
+  color: #17AEBF;
+}
+
+/* line 30, ../sass/index-author.scss */
+.author a {
+  color: #17AEBF;
+  text-decoration: none;
+  color: #17AEBF;
+}
+/* line 4, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_hover-link.scss */
+.author a:hover, .author a:focus {
+  text-decoration: underline;
+}
+/* line 18, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+.author a:visited {
+  color: #17AEBF;
+}
+/* line 21, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+.author a:focus {
+  color: #17AEBF;
+}
+/* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+.author a:hover {
+  color: #17AEBF;
+}
+/* line 27, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
+.author a:active {
+  color: #17AEBF;
+}
+
+/* line 34, ../sass/index-author.scss */
+.author-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: url(/img/jakubmalczak.jpg);
+}
+@media (min-width: 600px) {
+  /* line 34, ../sass/index-author.scss */
+  .author-image {
+    float: left;
+    margin-right: 30px;
+  }
+}
+
+/* line 48, ../sass/index-author.scss */
+.author-description {
+  padding-top: 20px;
+}
+@media (min-width: 600px) {
+  /* line 48, ../sass/index-author.scss */
+  .author-description {
+    font-size: 1.35em;
+  }
+}
+@media (max-width: 600px) {
+  /* line 48, ../sass/index-author.scss */
+  .author-description {
+    font-size: 1.1em;
+  }
+}
