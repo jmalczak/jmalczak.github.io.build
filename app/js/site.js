@@ -25,7 +25,7 @@ define(['jquery', 'cookie'], function($, cookie) {
             if(visitsCookie === undefined){
                 cookie.setCookie('visits', 1);
             }
-            else if( parseInt(visitsCookie) > 3){
+            else if(parseInt(visitsCookie) > 1){
                 var content = $(self.settings.contentSelector);
 
                 if(content.length === 1){
