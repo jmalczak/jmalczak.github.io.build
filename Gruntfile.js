@@ -107,8 +107,9 @@ module.exports = function (grunt) {
     usemin: {
       options: {
         assetsDirs: '<%= yeoman.dist %>',
+        replaceEncoded: true
       },
-      html: ['<%= yeoman.dist %>/**/*.html'],
+      html: ['<%= yeoman.dist %>/**/*.html', '<%= yeoman.dist %>/feed.xml'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
     },
     // Usemin adds files to concat
