@@ -107,7 +107,9 @@ module.exports = function (grunt) {
     usemin: {
       options: {
         assetsDirs: '<%= yeoman.dist %>',
-        replaceHtmlEncodedContent: ['<%= yeoman.dist %>/feed.xml']
+        replaceHtmlEncodedContent: {
+          html: ['<%= yeoman.dist %>/feed.xml']
+        }
       },
       html: ['<%= yeoman.dist %>/**/*.html', '<%= yeoman.dist %>/feed.xml'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
