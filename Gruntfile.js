@@ -297,12 +297,12 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'replace:absoluteUrl'
     ]);
 
   grunt.registerTask('deploy', [
     'check',
     'build',
+    'replace:absoluteUrl',
     'buildcontrol'
     ]);
 
