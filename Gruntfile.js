@@ -112,6 +112,16 @@ module.exports = function (grunt) {
       html: ['<%= yeoman.dist %>/**/*.html', '<%= yeoman.dist %>/feed.xml'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
     },
+    replace: {
+      absoluteUrl: {
+        src: ['<%= yeoman.dist %>/feed.xml'],
+        dest: '<%= yeoman.dist %>/',
+        replacements: [{
+          from: 'src=&quot;/',
+          to: 'src=&quot;http://developerabroad.com/'
+        }]
+      }
+    },
     // Usemin adds files to concat
     concat: {},
     // Usemin adds files to cssmin
@@ -287,6 +297,7 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
+    'replace:absoluteUrl'
     ]);
 
   grunt.registerTask('deploy', [

@@ -124,7 +124,7 @@ public class ResourceService
 
 To generate multiple JavaScript files from the T4 template, we need to use [T4Toolbox](https://t4toolbox.codeplex.com/) Visual Studio extension. You can either download it from [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/7f9bd62f-2505-4aa4-9378-ee7830371684) or using extension manager:
 
-<img class="img-responsive center-block" src="{{ site.url }}/img/t4toolboxInstall.jpg" alt="T4 Toolbox" />
+<img class="img-responsive center-block" src="/img/t4toolboxInstall.jpg" alt="T4 Toolbox" />
 
 It is possible to do the same without T4Toolbox, but our template would be much bigger, since we would have to not only create many files, but also use Visual Studio automation to add those files to a current project. By using T4Toolbox, it's no longer a problem, since extension will do the above actions for us. After installation and restart, it's time to add resource.tt template:
 
@@ -204,7 +204,7 @@ webSiteCore.Resource = (function (){
 
 Now it's time to add something to resource files and test if everything works fine. To run T4, just save template or use transform all templates option in Visual Studio 2013 menu:
 
-<img class="img-responsive center-block" src="{{ site.url }}/img/transformAllT4Templates.png" alt="Transform All T4 Templates" />
+<img class="img-responsive center-block" src="/img/transformAllT4Templates.png" alt="Transform All T4 Templates" />
 
 Generated files are named in the same way as the original resources. They have culture name as part of extension, so you can load just specific culture, not all at once. Example file for default culture:
 
