@@ -40,3 +40,6 @@ node_modules
 
 # Sublime
 site.sublime-workspace
+
+# DX optics files
+*.dop
