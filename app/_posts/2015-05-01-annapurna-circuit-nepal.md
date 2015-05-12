@@ -10,8 +10,10 @@ In early 2014 we spotted a really good deal on tickets to India. Most of the tim
 ### Flights
 Cheap ticket means a lot of flights. We had 4 flights total to get to GOA, and 2 more to get to Kathmandu. First we flew from Warsaw to Frankfurt, next to Chennai in India (also known as Madras). From Chennai where we stayed overnight at the airport, we had a flight to GOA. It wasn't ordinary flight though. We flew to Bangalore first, where we didn't leave the plane, but people travelling to Bangalore left and new people joined. It was like a bus stop but made by plane. Weird feeling when everyone leave the plane but you stay and watch cleaning team to do their things. Finally, we arrived in GOA.
 
-<img class="img-responsive center-block" src="/img/AnnapurnaCircuit/goaAirport.jpg" alt="Goa Airport" />
-<strong><p class="text-center">Goa Airport after arrival</p></strong>
+<a data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaAirport.jpg" href="#" data-footer="Goa Airport after arrival">
+    <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/goaAirport.jpg" alt="Goa Airport" />
+    <strong><p class="text-center">Goa Airport after arrival</p></strong>
+</a>
 
 <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/aniaWaitingForLuggage.jpg" alt="Ania waiting for luggage" />
 <strong><p class="text-center">Ania waiting for luggage</p></strong>

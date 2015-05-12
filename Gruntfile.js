@@ -171,7 +171,11 @@ module.exports = function (grunt) {
             'fonts/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
+            '_bower_components/jquery/jquery.min.js',
+            '_bower_components/bootstrap/dist/js/bootstrap.min.js',
             '_bower_components/requirejs/require.js',
+            '_bower_components/ekko-lightbox/dist/ekko-lightbox.min.js',
+            '_bower_components/ekko-lightbox/dist/ekko-lightbox.min.css',
             'favicon.ico',
             'apple-touch*.png'
           ],
