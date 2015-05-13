@@ -1,7 +1,8 @@
 Param(
-    [string]$folderPath
+    [string]$folderPath,
+    [int]$size
 )
 pushd
 cd $folderPath
-Get-ChildItem | ForEach-Object { convert $_.Name -resize 1000x1000 "min.$($_.Name)" }
+Get-ChildItem | ForEach-Object { convert $_.Name -resize $sizex$size "min.$($_.Name)" }
 popd
