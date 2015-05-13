@@ -1,4 +1,4 @@
-define(['ekkolightbox'], function() {
+define(['ekkolightbox', 'jquery'], function(ekkoLightbox, $) {
     var Lightbox = function() {
         var self = this;
 
@@ -7,8 +7,8 @@ define(['ekkolightbox'], function() {
                 $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
                     event.preventDefault();
                     $(this).ekkoLightbox();
-                    $('.ekko-lightbox').css('padding-right', 0)
-                }); 
+                    $('.ekko-lightbox').css('padding-right', 0);
+                });
             });
         };
     };
