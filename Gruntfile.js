@@ -173,6 +173,7 @@ module.exports = function (grunt) {
             '!**/_*{,/**}',
             '_bower_components/jquery/jquery.min.js',
             '_bower_components/bootstrap/dist/js/bootstrap.min.js',
+            '_bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
             '_bower_components/requirejs/require.js',
             '_bower_components/ekko-lightbox/dist/ekko-lightbox.min.js',
             '_bower_components/ekko-lightbox/dist/ekko-lightbox.min.css',
