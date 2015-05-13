@@ -8859,8 +8859,3 @@ a, a:hover, a:focus {
 .ekko-lightbox {
   padding: 0px !important;
 }
-
-/* line 20, ../sass/main.scss */
-a[data-toggle*="lightbox"] {
-  cursor: pointer;
-}
