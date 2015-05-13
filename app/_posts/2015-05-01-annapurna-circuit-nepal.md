@@ -11,39 +11,39 @@ In early 2014 we spotted a really good deal on tickets to India. Most of the tim
 <h3>Flights</h3>
 Cheap ticket means a lot of flights. We had 4 flights total to get to GOA, and 2 more to get to Kathmandu. First we flew from Warsaw to Frankfurt, next to Chennai in India (also known as Madras). From Chennai where we stayed overnight at the airport, we had a flight to GOA. It wasn't ordinary flight though. We flew to Bangalore first, where we didn't leave the plane, but people travelling to Bangalore left and new people joined. It was like a bus stop but made by plane. Weird feeling when everyone leave the plane but you stay and watch cleaning team to do their things. Finally, we arrived in GOA.
 
-<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaAirport.jpg" href="#" data-footer="Goa Airport after arrival">
+<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaAirport.jpg" data-footer="Goa Airport after arrival">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.goaAirport.jpg" alt="Goa Airport" />
     <strong><p class="text-center">Goa Airport after arrival</p></strong>
 </a>
 
-<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/aniaWaitingForLuggage.jpg" href="#" data-footer="Ania waiting for luggage">
+<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/aniaWaitingForLuggage.jpg" data-footer="Ania waiting for luggage">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.aniaWaitingForLuggage.jpg" alt="Ania waiting for luggage" />
     <strong><p class="text-center">Ania waiting for luggage</p></strong>
 </a>
 
 India was hot, we known that already since we had to go from one terminal to another in Chennai. But GOA was a completely different story. I would say it was around 37 - 40 centigrades. We had flight to Kathmandu scheduled for the next day early morning, so we have decided to see what GOA has to offer. A quick chat with some people on the airport and we had directions to our place to stay for the next 24 hours. Since we didn't know anything about GOA we have decided to go to a place called Vasco Da Gamma. We have stayed at Vasco Residency which was one of the cheapest options with AC. The place itself was very shady, we didn't enjoy the stay too much. Vasco Da Gamma itself at this time of the year was not a tourist place at all.
 
-<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/firstDosa.jpg" href="#" data-footer="First Indian food (dosa)">
+<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/firstDosa.jpg" data-footer="First Indian food (dosa)">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.firstDosa.jpg" alt="First Indian food (dosa)" />
     <strong><p class="text-center">First Indian food (dosa)</p></strong>
 </a>
 
-<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/localPublicTransport.jpg" href="#" data-footer="Local public transport">
+<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/localPublicTransport.jpg" data-footer="Local public transport">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.localPublicTransport.jpg" alt="Local public transport" />
     <strong><p class="text-center">Local public transport</p></strong>
 </a>
 
-<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaBeach1.jpg" href="#" data-footer="Goa Beach">
+<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaBeach1.jpg" data-footer="Goa Beach">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.goaBeach1.jpg" alt="Goa Beach" />
     <strong><p class="text-center">Goa Beach</p></strong>
 </a>
 
-<a data-gallery="goa" data-parent data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaBeach2.jpg" href="#" data-footer="Goa Beach">
+<a data-gallery="goa" data-parent data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/goaBeach2.jpg" data-footer="Goa Beach">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.goaBeach2.jpg" alt="Goa Beach" />
     <strong><p class="text-center">Goa Beach</p></strong>
 </a>
 
-<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/transportHome.jpg" href="#" data-footer="Taking goods home">
+<a data-gallery="goa" data-parent="#content" data-toggle="lightbox" data-remote="http://localhost:9000/img/AnnapurnaCircuit/transportHome.jpg" data-footer="Taking goods home">
     <img class="img-responsive center-block" src="/img/AnnapurnaCircuit/min.transportHome.jpg" alt="Taking goods home" />
     <strong><p class="text-center">Taking goods home</p></strong>
 </a>

@@ -16,3 +16,7 @@ a, a:hover, a:focus {
 .ekko-lightbox {
     padding: 0px!important;
 }
+
+a[data-toggle*="lightbox"] {
+    cursor: pointer;
+}
