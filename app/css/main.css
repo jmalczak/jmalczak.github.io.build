@@ -8860,19 +8860,41 @@ a, a:hover, a:focus {
   padding: 0px !important;
 }
 
-/* line 20, ../sass/main.scss */
+@media (max-width: 600px) {
+  /* line 20, ../sass/main.scss */
+  header h1 {
+    padding-top: 10px;
+  }
+}
+
+/* line 26, ../sass/main.scss */
 .ribbon-left {
-  width: 200px;
+  z-index: 100;
   background: #e43;
   position: fixed;
-  top: 30px;
-  left: -45px;
   text-align: center;
-  font-size: 1em;
   line-height: 20px;
   letter-spacing: 1px;
   color: #f0f0f0;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 600px) {
+  /* line 26, ../sass/main.scss */
+  .ribbon-left {
+    width: 200px;
+    top: 30px;
+    left: -45px;
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px) {
+  /* line 26, ../sass/main.scss */
+  .ribbon-left {
+    width: 170px;
+    top: 20px;
+    left: -45px;
+    font-size: 0.8em;
+  }
 }
