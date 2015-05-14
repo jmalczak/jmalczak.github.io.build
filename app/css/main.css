@@ -8859,3 +8859,20 @@ a, a:hover, a:focus {
 .ekko-lightbox {
   padding: 0px !important;
 }
+
+/* line 20, ../sass/main.scss */
+.ribbon-left {
+  width: 200px;
+  background: #e43;
+  position: fixed;
+  top: 30px;
+  left: -45px;
+  text-align: center;
+  font-size: 1em;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
