@@ -132,14 +132,17 @@ table.highlighttable {
   padding-top: 3px;
   padding-bottom: 3px;
   margin-right: 5px;
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 5px;
 }
 
-/* line 47, ../sass/index-posts.scss */
+/* line 50, ../sass/index-posts.scss */
 .post-list {
   margin-bottom: 20px;
 }
 
-/* line 51, ../sass/index-posts.scss */
+/* line 54, ../sass/index-posts.scss */
 .pager {
   text-align: center;
 }
