@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How to complete half of Annapurna Circuit trek in 10 days (Part 1)"
+title: "Half of Annapurna Circuit trek in 10 days (Planning)"
 description: "How to complete half of Annapurna Circuit trek in World's highest mountains in 10 days. Including crossing Thorong La pass, the highest tourist pass in the World."
-category: [Travel]
+category: [Travel,Nepal,Trekking]
 --- 
 <div id="content">
 <h3>Planning</h3>
