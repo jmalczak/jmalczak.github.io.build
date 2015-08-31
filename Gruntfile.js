@@ -147,16 +147,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>',
-          src: '**/*.svg',
-          dest: '<%= yeoman.dist %>'
-        }]
-      }
-    },
     copy: {
       dist: {
          files: [{
@@ -202,22 +192,6 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>',
           src: 'CNAME',
           dest: '<%= yeoman.dist %>/',
-        }]
-      }
-    },
-    filerev: {
-      options: {
-        length: 4
-      },
-      dist: {
-        files: [{
-          src: [
-            '<%= yeoman.dist %>/js/**/*.js',
-            '<%= yeoman.dist %>/css/**/*.css',
-            '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
-            '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}',
-            '!<%= yeoman.dist %>/fonts/fontawesome-webfont.{eot*,otf,svg,ttf,woff}'
-          ]
         }]
       }
     },
@@ -298,11 +272,8 @@ module.exports = function (grunt) {
     'useminPrepare',
     'concat',
     'cssmin',
-    'imagemin',
-    'svgmin',
     'requirejs',
     'uglify',
-    'filerev',
     'usemin',
     ]);
 
