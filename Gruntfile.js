@@ -198,10 +198,11 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'origin',
+          remote: 'git@github.com:jmalczak/jmalczak.github.io.git',
           branch: 'master',
           commit: true,
-          push: true
+          push: true,
+          shallowFetch: true
         }
       }
     },
