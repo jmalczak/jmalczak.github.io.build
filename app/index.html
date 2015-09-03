@@ -18,7 +18,7 @@ description: Developer Abroad technology and traveling blog.
         </div>
     </div>
 </div>
-<main class="content">
+<main id="page-content" class="content">
     {% include navigation.html %}
     <div class="container">
         {% for post in paginator.posts %}
@@ -45,18 +45,23 @@ description: Developer Abroad technology and traveling blog.
                 </header>
                 <p>{{ post.content | strip_html | truncatewords:60 }}</p>
                 <div>
-                    {% for tag in post.categories %}<span class="post-tags"><a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a></span>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                        <span class="post-tags">
+                            <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" 
+                               title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>
+                       </span>
+                    {% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
                 </div>
             </div>
         </article>
         {% endfor %}
         <nav class="pager">
             {% if paginator.previous_page %}
-            <a href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
+            <a href="{{ site.url }}{{ paginator.previous_page_path }}/#page-content"><i class="fa fa-chevron-left"></i> Newer</a>
             {% endif %}
             <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
             {% if paginator.next_page %}
-            <a href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
+            <a href="{{ site.url }}{{ paginator.next_page_path }}/#page-content">Older <i class="fa fa-chevron-right"></i></a>
             {% endif %}
         </nav>
     </div>

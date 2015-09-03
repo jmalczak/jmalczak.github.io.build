@@ -7,7 +7,7 @@ define(['jquery', 'cookie'], function($, cookie) {
         };
         self.init = function() {
             self.initEvents();
-            self.scrollToContentIfUserIsReturning();
+//            self.scrollToContentIfUserIsReturning();
         };
         self.initEvents = function() {
             $(self.settings.slideDownSelector).click(function() {
