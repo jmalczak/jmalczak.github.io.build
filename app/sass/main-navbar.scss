@@ -1,5 +1,9 @@
 @import "_base";
 
+nav.top {
+    color: $menuColor;
+}
+
 nav.top .navbar {
     @media (min-width: $small) {
         float: right;
@@ -15,7 +19,7 @@ nav.top ul.navbar {
     }
     margin-bottom: 0px;
     padding-left: 1px;
-    min-height: 30px;
+    min-height: 45px;
 }
 
 nav.top .navbar li {
@@ -26,8 +30,18 @@ nav.top .navbar li {
         text-align: center;
     }
     display: block;
-    padding-right: 15px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+
+nav.top .navbar a {
+    padding: 5px 18px;
+    color: $menuColor;
+    border: 1px solid $highlighColor;
+}
+
+nav.top .navbar a:hover {
+    text-decoration: none;
+    border: 1px solid $menuColor;
 }
 
 nav.top {
@@ -63,4 +77,18 @@ nav.top {
     @media (max-width: $small){
         display: block;
     }
+}
+
+#nav-wrapper {
+    margin: auto;
+}
+
+#site-name {
+    margin: auto;
+    text-align: center;
+}
+
+#nav-menu-wrapper {
+    width: 600px;
+    margin: auto;
 }

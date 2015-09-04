@@ -1,9 +1,14 @@
 @import "_base";
 
 .footer {
+    color: $footerColor;
     min-height: 8em;
     padding: 15px;
     background-color: $highlighColor;
+}
+
+.footer a {
+    @include link-colors($footerColor, $footerColor, $footerColor, $footerColor, $footerColor);
 }
 
 .footer .copyright {
@@ -17,4 +22,8 @@
 .footer .social-icons {
     margin: auto;
     text-align: center;
+}
+
+.footer .social-icons a {
+    color: $highlighColor;
 }

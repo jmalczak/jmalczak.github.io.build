@@ -1,13 +1,13 @@
-/* line 19, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 .highlightColor {
-  color: #17AEBF;
+  color: #384759;
 }
 
-/* line 23, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 a.highlightColor {
-  color: #17AEBF;
+  color: #384759;
   text-decoration: none;
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 4, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
 a.highlightColor:hover, a.highlightColor:focus {
@@ -15,74 +15,74 @@ a.highlightColor:hover, a.highlightColor:focus {
 }
 /* line 18, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:visited {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 21, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:focus {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:hover {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 27, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:active {
-  color: #17AEBF;
+  color: #384759;
 }
 
-/* line 27, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 32, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 36, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 42, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 47, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 64, ../sass/_base.scss */
+/* line 66, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
 
 /* line 3, ../sass/index-posts.scss */
 .day {
-  color: #17AEBF;
+  color: #384759;
   font-size: 3.5em;
   display: block;
   font-weight: 800;
@@ -95,7 +95,7 @@ table.highlighttable {
 
 /* line 15, ../sass/index-posts.scss */
 .month-year {
-  color: #333333;
+  color: #111111;
   font-size: 1em;
   display: block;
   font-weight: 500;
@@ -106,7 +106,7 @@ table.highlighttable {
 .post-title {
   font-size: 2.5em;
   font-weight: 800;
-  color: #333333;
+  color: #111111;
 }
 @media (max-width: 600px) {
   /* line 23, ../sass/index-posts.scss */
@@ -124,7 +124,7 @@ table.highlighttable {
 
 /* line 38, ../sass/index-posts.scss */
 .post-tags {
-  border: 1px solid #333333;
+  border: 1px solid #111111;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;

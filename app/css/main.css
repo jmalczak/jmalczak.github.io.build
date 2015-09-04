@@ -8769,16 +8769,16 @@ button.close {
     display: none !important;
   }
 }
-/* line 19, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 .highlightColor {
-  color: #17AEBF;
+  color: #384759;
 }
 
-/* line 23, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 a.highlightColor {
-  color: #17AEBF;
+  color: #384759;
   text-decoration: none;
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 4, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
 a.highlightColor:hover, a.highlightColor:focus {
@@ -8786,171 +8786,205 @@ a.highlightColor:hover, a.highlightColor:focus {
 }
 /* line 18, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:visited {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 21, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:focus {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:hover {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 27, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:active {
-  color: #17AEBF;
+  color: #384759;
 }
 
-/* line 27, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 32, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 36, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 42, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 47, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 64, ../sass/_base.scss */
+/* line 66, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
 
+/* line 3, ../sass/main-navbar.scss */
+nav.top {
+  color: white;
+}
+
 @media (min-width: 600px) {
-  /* line 3, ../sass/main-navbar.scss */
+  /* line 7, ../sass/main-navbar.scss */
   nav.top .navbar {
     float: right;
   }
 }
 
-/* line 9, ../sass/main-navbar.scss */
+/* line 13, ../sass/main-navbar.scss */
 nav.top ul.navbar {
   margin-bottom: 0px;
   padding-left: 1px;
-  min-height: 30px;
+  min-height: 45px;
 }
 @media (max-width: 600px) {
-  /* line 9, ../sass/main-navbar.scss */
+  /* line 13, ../sass/main-navbar.scss */
   nav.top ul.navbar {
     display: none;
   }
 }
 @media (min-width: 600px) {
-  /* line 9, ../sass/main-navbar.scss */
+  /* line 13, ../sass/main-navbar.scss */
   nav.top ul.navbar {
     display: block;
   }
 }
 
-/* line 21, ../sass/main-navbar.scss */
+/* line 25, ../sass/main-navbar.scss */
 nav.top .navbar li {
   display: block;
-  padding-right: 15px;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 @media (min-width: 600px) {
-  /* line 21, ../sass/main-navbar.scss */
+  /* line 25, ../sass/main-navbar.scss */
   nav.top .navbar li {
     display: inline-block;
   }
 }
 @media (max-width: 600px) {
-  /* line 21, ../sass/main-navbar.scss */
+  /* line 25, ../sass/main-navbar.scss */
   nav.top .navbar li {
     text-align: center;
   }
 }
 
-/* line 33, ../sass/main-navbar.scss */
+/* line 36, ../sass/main-navbar.scss */
+nav.top .navbar a {
+  padding: 5px 18px;
+  color: white;
+  border: 1px solid #384759;
+}
+
+/* line 42, ../sass/main-navbar.scss */
+nav.top .navbar a:hover {
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+/* line 47, ../sass/main-navbar.scss */
 nav.top {
-  background-color: #17AEBF;
+  background-color: #384759;
   border-bottom: 1px solid #d9d9d9;
 }
 
-/* line 38, ../sass/main-navbar.scss */
+/* line 52, ../sass/main-navbar.scss */
 .menu-mobile-toggle {
   text-align: right;
   padding-right: 10px;
 }
 @media (min-width: 600px) {
-  /* line 38, ../sass/main-navbar.scss */
+  /* line 52, ../sass/main-navbar.scss */
   .menu-mobile-toggle {
     display: none;
   }
 }
 
-/* line 46, ../sass/main-navbar.scss */
+/* line 60, ../sass/main-navbar.scss */
 .menu-mobile-toggle a {
   font-size: 2.5em;
 }
 
-/* line 50, ../sass/main-navbar.scss */
+/* line 64, ../sass/main-navbar.scss */
 .menu-mobile-toggle .menu-mobile-close {
   display: none;
 }
 
-/* line 54, ../sass/main-navbar.scss */
+/* line 68, ../sass/main-navbar.scss */
 #menu-mobile-open:target.top .menu-mobile-open {
   display: none;
 }
 
-/* line 58, ../sass/main-navbar.scss */
+/* line 72, ../sass/main-navbar.scss */
 #menu-mobile-open:target.top .menu-mobile-close {
   display: inline;
 }
 
 @media (max-width: 600px) {
-  /* line 62, ../sass/main-navbar.scss */
+  /* line 76, ../sass/main-navbar.scss */
   #menu-mobile-open:target.top ul.navbar {
     display: block;
   }
 }
 
-/* line 19, ../sass/_base.scss */
-.highlightColor {
-  color: #17AEBF;
+/* line 82, ../sass/main-navbar.scss */
+#nav-wrapper {
+  margin: auto;
 }
 
-/* line 23, ../sass/_base.scss */
+/* line 86, ../sass/main-navbar.scss */
+#site-name {
+  margin: auto;
+  text-align: center;
+}
+
+/* line 91, ../sass/main-navbar.scss */
+#nav-menu-wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+/* line 21, ../sass/_base.scss */
+.highlightColor {
+  color: #384759;
+}
+
+/* line 25, ../sass/_base.scss */
 a.highlightColor {
-  color: #17AEBF;
+  color: #384759;
   text-decoration: none;
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 4, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
 a.highlightColor:hover, a.highlightColor:focus {
@@ -8958,79 +8992,101 @@ a.highlightColor:hover, a.highlightColor:focus {
 }
 /* line 18, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:visited {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 21, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:focus {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:hover {
-  color: #17AEBF;
+  color: #384759;
 }
 /* line 27, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
 a.highlightColor:active {
-  color: #17AEBF;
+  color: #384759;
 }
 
-/* line 27, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 32, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 36, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 42, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 47, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 64, ../sass/_base.scss */
+/* line 66, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
 
 /* line 3, ../sass/main-footer.scss */
 .footer {
+  color: white;
   min-height: 8em;
   padding: 15px;
-  background-color: #17AEBF;
+  background-color: #384759;
 }
 
-/* line 9, ../sass/main-footer.scss */
+/* line 10, ../sass/main-footer.scss */
+.footer a {
+  color: white;
+}
+/* line 18, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.footer a:visited {
+  color: white;
+}
+/* line 21, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.footer a:focus {
+  color: white;
+}
+/* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.footer a:hover {
+  color: white;
+}
+/* line 27, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+.footer a:active {
+  color: white;
+}
+
+/* line 14, ../sass/main-footer.scss */
 .footer .copyright {
   margin: auto;
   text-align: center;
@@ -9039,22 +9095,27 @@ table.highlighttable {
   font-size: 1.2em;
 }
 
-/* line 17, ../sass/main-footer.scss */
+/* line 22, ../sass/main-footer.scss */
 .footer .social-icons {
   margin: auto;
   text-align: center;
+}
+
+/* line 27, ../sass/main-footer.scss */
+.footer .social-icons a {
+  color: #384759;
 }
 
 /* line 6, ../sass/main.scss */
 html, body {
   height: 100%;
   font-size: 14px;
-  color: #333333;
+  color: #111111;
 }
 
 /* line 12, ../sass/main.scss */
 a, a:hover, a:focus {
-  color: #333333;
+  color: #111111;
 }
 
 /* line 16, ../sass/main.scss */
@@ -9072,7 +9133,7 @@ a, a:hover, a:focus {
 /* line 26, ../sass/main.scss */
 .ribbon-left {
   z-index: 100;
-  background: #e43;
+  background: #384759;
   position: fixed;
   text-align: center;
   line-height: 20px;
