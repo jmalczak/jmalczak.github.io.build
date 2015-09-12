@@ -206,6 +206,7 @@ nav.top {
 #nav-menu-wrapper {
   margin: auto;
   clear: both;
+  max-width: 1400px;
 }
 @media (min-width: 950px) {
   /* line 90, ../sass/main-navbar.scss */
@@ -221,7 +222,7 @@ nav.top {
   }
 }
 
-/* line 104, ../sass/main-navbar.scss */
+/* line 106, ../sass/main-navbar.scss */
 #site-name {
   float: left;
   font-size: 2em;
@@ -230,7 +231,7 @@ nav.top {
   padding-top: 5px;
 }
 @media (max-width: 950px) {
-  /* line 104, ../sass/main-navbar.scss */
+  /* line 106, ../sass/main-navbar.scss */
   #site-name {
     display: none;
   }

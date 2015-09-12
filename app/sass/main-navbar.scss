@@ -91,6 +91,8 @@ nav.top {
     margin: auto;
     clear: both;
 
+    max-width: 1400px;
+
     @media (min-width: 950px){
         padding-left: 120px;
         padding-right: 110px;
