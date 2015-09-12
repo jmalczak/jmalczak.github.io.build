@@ -23,7 +23,7 @@ description: Developer Abroad technology and traveling blog.
     <div class="container">
         {% for post in paginator.posts %}
         <article class="row post">
-            <div class="col-md-2">
+            <div class="col-md-1">
                 <span>
                 <time datetime="{{ post.date | date_to_xmlschema }}">
                 <span class="day">
@@ -35,7 +35,7 @@ description: Developer Abroad technology and traveling blog.
                 </time>
                 </span>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-11">
                 <header>
                     <h3 class="post-title">
                     <a href="{{ site.url }}{{ post.url }}">

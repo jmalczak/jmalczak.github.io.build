@@ -1,11 +1,16 @@
 @import "compass";
 
-$small: 600px;
+$small: 690px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
 $largeAuthorImage: 800px;
 $mainColorDark: #111111;
 $menuColor: white;
 $footerColor: white;
 $highlighColor: shade(#50667f, 30);
+$accentColor: #ff346f;
 $separatorColor: rgb(217, 217, 217);
 $codeHighlightColor: rgb(220, 220, 220);
 $codeHighlightColorBackground: rgb(245, 245, 245);
@@ -16,6 +21,10 @@ $thick: 800;
 	color: $highlighColor;
     @include hover-link();
     @include link-colors($highlighColor, $highlighColor, $highlighColor, $highlighColor, $highlighColor);
+}
+
+.accent {
+    color: $accentColor;
 }
 
 .highlightColor {

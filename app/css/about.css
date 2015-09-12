@@ -1,9 +1,14 @@
-/* line 21, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
+.accent {
+  color: #ff346f;
+}
+
+/* line 30, ../sass/_base.scss */
 .highlightColor {
   color: #384759;
 }
 
-/* line 25, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 a.highlightColor {
   color: #384759;
   text-decoration: none;
@@ -30,52 +35,52 @@ a.highlightColor:active {
   color: #384759;
 }
 
-/* line 29, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 38, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 44, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 66, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
@@ -89,7 +94,7 @@ table.highlighttable {
   border-radius: 50px;
   background: url(/img/jakubmalczak.jpg);
 }
-@media (min-width: 600px) {
+@media (min-width: 690px) {
   /* line 3, ../sass/about.scss */
   .about-author-image {
     float: right;
@@ -97,7 +102,7 @@ table.highlighttable {
     margin-left: 30px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 690px) {
   /* line 3, ../sass/about.scss */
   .about-author-image {
     margin: auto;

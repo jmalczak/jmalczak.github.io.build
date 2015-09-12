@@ -1,9 +1,14 @@
-/* line 21, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
+.accent {
+  color: #ff346f;
+}
+
+/* line 30, ../sass/_base.scss */
 .highlightColor {
   color: #384759;
 }
 
-/* line 25, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 a.highlightColor {
   color: #384759;
   text-decoration: none;
@@ -30,57 +35,57 @@ a.highlightColor:active {
   color: #384759;
 }
 
-/* line 29, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 38, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 44, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 66, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 690px) {
   /* line 3, ../sass/index-author.scss */
   .author-padding {
     min-height: 30%;
@@ -106,7 +111,7 @@ table.highlighttable {
     padding-right: 10px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 690px) {
   /* line 9, ../sass/index-author.scss */
   .author {
     padding-top: 10px;
@@ -115,7 +120,7 @@ table.highlighttable {
 
 /* line 26, ../sass/index-author.scss */
 .author b {
-  color: #384759;
+  color: #ff346f;
 }
 
 /* line 30, ../sass/index-author.scss */
@@ -155,7 +160,7 @@ table.highlighttable {
   border-radius: 50px;
   background: url(/img/jakubmalczak.jpg);
 }
-@media (min-width: 600px) {
+@media (min-width: 690px) {
   /* line 34, ../sass/index-author.scss */
   .author-image {
     float: left;
@@ -167,25 +172,30 @@ table.highlighttable {
 .author-description {
   padding-top: 20px;
 }
-@media (min-width: 600px) {
+@media (min-width: 690px) {
   /* line 48, ../sass/index-author.scss */
   .author-description {
     font-size: 1.35em;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 690px) {
   /* line 48, ../sass/index-author.scss */
   .author-description {
     font-size: 1.1em;
   }
 }
 
-/* line 21, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
+.accent {
+  color: #ff346f;
+}
+
+/* line 30, ../sass/_base.scss */
 .highlightColor {
   color: #384759;
 }
 
-/* line 25, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 a.highlightColor {
   color: #384759;
   text-decoration: none;
@@ -212,52 +222,52 @@ a.highlightColor:active {
   color: #384759;
 }
 
-/* line 29, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 38, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 44, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 66, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
@@ -290,7 +300,7 @@ table.highlighttable {
   font-weight: 800;
   color: #111111;
 }
-@media (max-width: 600px) {
+@media (max-width: 690px) {
   /* line 23, ../sass/index-posts.scss */
   .post-title {
     text-align: center;
@@ -329,12 +339,17 @@ table.highlighttable {
   text-align: center;
 }
 
-/* line 21, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
+.accent {
+  color: #ff346f;
+}
+
+/* line 30, ../sass/_base.scss */
 .highlightColor {
   color: #384759;
 }
 
-/* line 25, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 a.highlightColor {
   color: #384759;
   text-decoration: none;
@@ -361,52 +376,52 @@ a.highlightColor:active {
   color: #384759;
 }
 
-/* line 29, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 table.highlighttable {
   overflow-x: auto;
   display: block;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 table.highlighttable td.code {
   width: 100%;
 }
 
-/* line 38, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 table.highlighttable pre {
   border-radius: inherit;
   border: inherit;
   padding-bottom: 0px;
 }
 
-/* line 44, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 table.highlighttable {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 table.highlighttable .linenos {
   border-right: 1px solid #ccc;
   background-color: gainsboro;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 table.highlighttable .code {
   background-color: whitesmoke;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 table.highlighttable .linenos pre {
   background-color: gainsboro;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 table.highlighttable pre code {
   white-space: pre;
 }
 
-/* line 66, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 table.highlighttable {
   margin-bottom: 9px;
 }
@@ -435,7 +450,7 @@ table.highlighttable {
   bottom: 5px;
   cursor: pointer;
 }
-@media (min-width: 600px) {
+@media (min-width: 690px) {
   /* line 11, ../sass/index-main.scss */
   .scroll-down {
     bottom: 30px;
