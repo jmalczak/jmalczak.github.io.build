@@ -1,10 +1,10 @@
 requirejs.config({
-    baseUrl: '/js/shared',
+    baseUrl: '/js',
     paths: {
-        jquery: '../../_bower_components/jquery/jquery',
-        bootstrap: '../../_bower_components/bootstrap/dist/js/bootstrap',
-        ekkolightbox: '../../_bower_components/ekko-lightbox/dist/ekko-lightbox',
-        mapbox: '../../_bower_components/mapbox.js/mapbox',
+        jquery: '../_bower_components/jquery/jquery',
+        bootstrap: '../_bower_components/bootstrap/dist/js/bootstrap',
+        ekkolightbox: '../_bower_components/ekko-lightbox/dist/ekko-lightbox',
+        mapbox: '../_bower_components/mapbox.js/mapbox',
     },
     shim: {
         bootstrap: {
@@ -21,7 +21,7 @@ requirejs.config({
     }
 });
 
-requirejs(['console', 'details', 'lightbox'], function(console, details, lightbox){
+requirejs(['shared/console', 'shared/details', 'shared/lightbox'], function(console, details, lightbox){
     console.init();
     lightbox.init();
 });

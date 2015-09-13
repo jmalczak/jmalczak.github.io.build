@@ -1,5 +1,5 @@
 requirejs(['main'], function(common) {
-    require(['jquery', 'mapbox'], function($, L) {
+    require(['jquery', 'mapbox', 'map/map-markers'], function($, L, M) {
         var Map = function() {
             var self = this;
 
@@ -12,6 +12,7 @@ requirejs(['main'], function(common) {
             self.init = function() {
                 self.initEvents();
             };
+
             self.initEvents = function() {
                 $(document).ready(function () {
                     L.mapbox.accessToken = self.settings.accessToken;
@@ -23,13 +24,17 @@ requirejs(['main'], function(common) {
                             attributionControl: {compact: true}
                         }).setView([40,25], 3);
 
-                    for(var i = 1; i < 20; i++) {
-                        var lat = i * 4 + 10;
-                        var lon = i * 4 + 10;
+                    self.addMarkers();
+                });
+            };
 
-                        var marker = L.marker([lat, lon]);
-                        marker.addTo(self.map);
-                    }
+            self.addMarkers = function() {
+                M.continents.forEach(function(continent) {
+                    continent.countries.forEach(function(country) {
+                        country.cities.forEach(function(city) {
+                            L.marker([city.lat, city.lon], {title: city.name}).addTo(self.map);
+                        });
+                    });
                 });
             };
         };
