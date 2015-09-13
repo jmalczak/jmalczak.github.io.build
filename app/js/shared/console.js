@@ -1,5 +1,5 @@
 define(function(){
-    var Plugins = function(){
+    var Console = function(){
         // Avoid `console` errors in browsers that lack a console.
         this.init = function(){
             this.initConsole();
@@ -28,5 +28,5 @@ define(function(){
         };
     };
 
-    return new Plugins();
+    return new Console();
 });

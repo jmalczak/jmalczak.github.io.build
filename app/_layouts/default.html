@@ -10,12 +10,14 @@
     <!-- build:css(app) /css/main.css -->
     <link rel="stylesheet" href="/_bower_components/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="/_bower_components/ekko-lightbox/dist/ekko-lightbox.min.css" />
-    <link rel="stylesheet" href="/css/syntax.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/shared/syntax.css" />
+    <link rel="stylesheet" href="/css/shared/main.css" />
+    <link rel="stylesheet" href="/css/index/index.css" />
+    <link rel="stylesheet" href="/css/about/about.css" />
     <!-- endbuild -->
-    <script data-main="/js/main" src="/_bower_components/requirejs/require.js"></script>
+    {{ page.styles }}
+    <script data-main="/js/shared/main" src="/_bower_components/requirejs/require.js"></script>
+    {{ page.scripts }}
     <!--
       Nice that someone is reading the markup. If you would like to hire me, or you need people for
       any cool project. Please don't hesitate to contact me. To get my e-mail address, please open 

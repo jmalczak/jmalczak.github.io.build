@@ -83,6 +83,11 @@ nav.top {
 }
 
 #site-name {
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
     margin: auto;
     text-align: center;
 }
@@ -99,7 +104,7 @@ nav.top {
     }
 
     @media (max-width: 950px) {
-        width:450px;
+        width:500px;
     }
 }
 
