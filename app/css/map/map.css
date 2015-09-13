@@ -89,3 +89,13 @@ table.highlighttable {
 #map {
   height: 600px;
 }
+
+/* line 7, ../../sass/map/map.scss */
+#countries {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 11, ../../sass/map/map.scss */
+#countries .row {
+  padding-bottom: 20px;
+}
