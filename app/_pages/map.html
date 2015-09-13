@@ -15,83 +15,14 @@ styles: |
 </div>
 <div class="container" id="countries">
     <div class="row">
-        <div class="col-md-4">
+        <div data-bind="foreach: continents" class="col-md-4">
             <div class="media">
                 <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" src="/img/world/canada.png" alt="Canada">
-                    </a>
+                    <img class="media-object" src="/img/world/canada.png" data-bind="attr: { alt: name }">
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading">North America - Canada</h4>
-                    Vancouver BC, Whistler BC 
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" src="/img/world/canada.png" alt="USA">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">North America - United States</h4>
-                    Seattle WA, Portlant WA, Kent WA, Tacoma WA, Olympic National Park WA, Ocean Shores WA, San Juan Islands, WA 
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" src="/img/world/canada.png" alt="USA">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">North America - United States</h4>
-                    Seattle WA, Portlant WA, Kent WA, Tacoma WA, Olympic National Park WA, Ocean Shores WA, San Juan Islands, WA 
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" src="/img/world/canada.png" alt="Canada">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">North America - Canada</h4>
-                    Vancouver BC, Whistler BC 
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" src="/img/world/canada.png" alt="USA">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">North America - United States</h4>
-                    Seattle WA, Portlant WA, Kent WA, Tacoma WA, Olympic National Park WA, Ocean Shores WA, San Juan Islands, WA 
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" src="/img/world/canada.png" alt="USA">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">North America - United States</h4>
-                    Seattle WA, Portlant WA, Kent WA, Tacoma WA, Olympic National Park WA, Ocean Shores WA, San Juan Islands, WA 
+                    <h4 class="media-heading"><b data-bind="text: name"></b></h4>
+                    <span data-bind="text: name"></span>
                 </div>
             </div>
         </div>

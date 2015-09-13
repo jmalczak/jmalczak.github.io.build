@@ -6,6 +6,7 @@
     "ekko-lightbox": "~3.3.0",
     "font-awesome": "~4.2.0",
     "jquery": "~1.10.2",
+    "knockout": "knockoutjs#~3.3.0",
     "mapbox.js": "~2.2.1",
     "requirejs": "~2.1.15"
   }
