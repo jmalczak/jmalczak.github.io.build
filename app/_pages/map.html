@@ -22,7 +22,9 @@ styles: |
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading"><b data-bind="text: name"></b></h4>
-                    <span data-bind="text: name"></span>
+                    <span data-bind="foreach: countries">
+                        <b data-bind="text: name"></b>: <span data-bind="text: ko.utils.arrayMap(cities, function(c) { return c.name }).join(', ')"></span>
+                    </span>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-requirejs(['shared/main'], function(common) {
+requirejs(['main'], function(common) {
     require(['jquery'], function($) {
         var Index = function() {
             var self = this;
