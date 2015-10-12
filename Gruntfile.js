@@ -201,7 +201,7 @@ module.exports = function (grunt) {
       compile: {
         options: {
           baseUrl: '<%= folders.app %>/js',
-          name: 'main',
+          name: 'shared/main',
           mainConfigFile: '<%= folders.app %>/js/shared/main.js',
           out: '<%= folders.dist %>/js/shared/main.js'
         }
