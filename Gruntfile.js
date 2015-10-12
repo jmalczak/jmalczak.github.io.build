@@ -136,6 +136,7 @@ module.exports = function (grunt) {
           src: [
             'img/**/*',
             'fonts/**/*',
+            'css/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
             '_bower_components/jquery/jquery.min.js',

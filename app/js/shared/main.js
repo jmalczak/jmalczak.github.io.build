@@ -3,7 +3,7 @@ window.requirejs.config({
     paths: {
         jquery: '../_bower_components/jquery/jquery.min',
         bootstrap: '../_bower_components/bootstrap/dist/js/bootstrap.min',
-        ekkolightbox: '../_bower_components/ekko-lightbox/dist/ekko-lightbox',
+        ekkolightbox: '../_bower_components/ekko-lightbox/dist/ekko-lightbox.min',
         mapbox: '../_bower_components/mapbox.js/mapbox',
         knockout: '../_bower_components/knockout/dist/knockout',
     },
