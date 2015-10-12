@@ -8984,17 +8984,17 @@ nav.top {
   clear: both;
   max-width: 1400px;
 }
-@media (min-width: 950px) {
+@media (min-width: 1050px) {
   /* line 95, ../../sass/shared/main-navbar.scss */
   #nav-menu-wrapper {
     padding-left: 120px;
     padding-right: 110px;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   /* line 95, ../../sass/shared/main-navbar.scss */
   #nav-menu-wrapper {
-    width: 500px;
+    width: 600px;
   }
 }
 
@@ -9006,7 +9006,7 @@ nav.top {
   font-size: 1.8em;
   padding-top: 5px;
 }
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   /* line 111, ../../sass/shared/main-navbar.scss */
   #site-name {
     display: none;

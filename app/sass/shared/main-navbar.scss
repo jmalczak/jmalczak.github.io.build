@@ -98,18 +98,18 @@ nav.top {
 
     max-width: 1400px;
 
-    @media (min-width: 950px){
+    @media (min-width: 1050px){
         padding-left: 120px;
         padding-right: 110px;
     }
 
-    @media (max-width: 950px) {
-        width:500px;
+    @media (max-width: 1050px) {
+        width:600px;
     }
 }
 
 #site-name {
-    @media (max-width: 950px){
+    @media (max-width: 1050px){
         display: none;
     }
  
