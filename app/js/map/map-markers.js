@@ -5,76 +5,76 @@ define(function() {
         self.continents = [{
             name: 'Europe',
             img: 'europe.png',
-            countries: [{ 
+            countries: [{
                     name: 'Poland',
                     lat: 52.2167,
                     lon: 21.0333,
-                    description: 'I live in third largest city in Poland called Lodz',
-                }, { 
+                    description: 'I live in third largest city in Poland called Lodz'
+                }, {
                     name: 'Germany',
                     lat: 51.75925,
                     lon: 19.45598,
-                    description: 'Just Berlin for a weekend',
+                    description: 'Just Berlin for a weekend'
                 }, {
                     name: 'Austria',
                     lat: 48.2000,
                     lon: 16.3500,
-                    description: 'Vienna for a weekend',
+                    description: 'Vienna for a weekend'
                 }, {
                     name: 'Hungary',
                     lat: 47.4333,
                     lon: 19.2500,
-                    description: 'Budapest during Balkan trip',
+                    description: 'Budapest during Balkan trip'
                 }, {
                     name: 'Serbia',
                     lat: 44.8000,
                     lon: 20.4667,
-                    description: 'Belgrade during Balkan trip',
+                    description: 'Belgrade during Balkan trip'
                 }, {
                     name: 'Montenegro',
                     lat: 42.7833,
                     lon: 19.4667,
-                    description: 'Zablijak, Podgorica, Kotor during Balkan trip',
+                    description: 'Zablijak, Podgorica, Kotor during Balkan trip'
                 }, {
                     name: 'Croatia',
                     lat: 45.8000,
                     lon: 16.0000,
-                    description: 'Dubrownik, Split, Plitvice, Zagreb during Balkan trip',
+                    description: 'Dubrownik, Split, Plitvice, Zagreb during Balkan trip'
                 }, {
                     name: 'Greece',
                     lat: 39.0000,
                     lon: 22.0000,
-                    description: 'Crete and Santorini islands',
+                    description: 'Crete and Santorini islands'
                  }
                 , {
                     name: 'Italy',
                     lat: 41.9000,
                     lon: 12.4833,
-                    description: 'Turin, Genoa, Venice, Rome during two different trips',
+                    description: 'Turin, Genoa, Venice, Rome during two different trips'
                 }
                 , {
                     name: 'Switzerland',
                     lat: 46.8333,
                     lon: 8.3333,
-                    description: 'Zermatt, Matternhorn climb trip',
+                    description: 'Zermatt, Matternhorn climb trip'
                 }
                 , {
                     name: 'France',
                     lat: 47.0000,
                     lon: 2.0000,
-                    description: 'Just Paris',
+                    description: 'Just Paris'
                 }
                 , {
                     name: 'Spain',
                     lat: 40.41678,
                     lon: -3.70379,
-                    description: 'Barcelona, Valencia, Madrid, Zaragoza during Spain road trip',
+                    description: 'Barcelona, Valencia, Madrid, Zaragoza during Spain road trip'
                 }
                 , {
                     name: 'Andorra',
                     lat: 42.50628,
                     lon: 1.52180,
-                    description: 'Andorra la Vella for some tax free goodies',
+                    description: 'Andorra la Vella for some tax free goodies'
                 }
                 , {
                     name: 'England',
@@ -86,37 +86,37 @@ define(function() {
                     name: 'Ireland',
                     lat: 53.41291,
                     lon: -8.24389,
-                    description: 'Galway, Dublin, Tralee and couple of smaller places',
+                    description: 'Galway, Dublin, Tralee and couple of smaller places'
                 }
                 , {
                     name: 'Sweden',
                     lat: 60.12816,
                     lon: 18.64350,
-                    description: 'Stockholm for a couple of days',
+                    description: 'Stockholm for a couple of days'
                 }
                 , {
                     name: 'Finland',
                     lat: 61.92411,
                     lon: 25.74815,
-                    description: 'Helsinki one day trip from Sweden',
+                    description: 'Helsinki one day trip from Sweden'
                 }
                 , {
                     name: 'Lithuania',
                     lat: 55.16944,
                     lon: 23.88127,
-                    description: 'Vilnius',
+                    description: 'Vilnius'
                 }
                 , {
                     name: 'Latvia',
                     lat: 56.87964,
                     lon: 24.60319,
-                    description: 'Riga',
+                    description: 'Riga'
                 }
                 , {
                     name: 'Estonia',
                     lat: 58.59527,
                     lon: 25.01361,
-                    description: 'Tallin',
+                    description: 'Tallin'
                 }]
             }, {
             name: 'Asia',

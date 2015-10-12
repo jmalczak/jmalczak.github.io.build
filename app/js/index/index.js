@@ -1,4 +1,4 @@
-requirejs(['main'], function(common) {
+window.requirejs(['main'], function(common) {
     require(['jquery'], function($) {
         var Index = function() {
             var self = this;

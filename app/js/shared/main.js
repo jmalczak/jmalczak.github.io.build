@@ -1,4 +1,4 @@
-requirejs.config({
+window.requirejs.config({
     baseUrl: '/js',
     paths: {
         jquery: '../_bower_components/jquery/jquery',
@@ -26,7 +26,7 @@ requirejs.config({
     }
 });
 
-requirejs(['shared/console', 'shared/details', 'shared/lightbox'], function(console, details, lightbox){
+window.requirejs(['shared/console', 'shared/details', 'shared/lightbox'], function(console, details, lightbox){
     console.init();
     lightbox.init();
 });

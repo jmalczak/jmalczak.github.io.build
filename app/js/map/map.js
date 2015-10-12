@@ -1,4 +1,4 @@
-requirejs(['main'], function(common) {
+window.requirejs(['main'], function(common) {
     require(['jquery', 'mapbox', 'map/map-markers', 'knockout'], function($, L, M, ko) {
 
         var Map = function() {
@@ -25,8 +25,8 @@ requirejs(['main'], function(common) {
                 L.mapbox.accessToken = self.settings.accessToken;
                 
                 self.map = L.mapbox.map(
-                    self.settings.containerName, 
-                    self.settings.mapName, { 
+                    self.settings.containerName,
+                    self.settings.mapName, {
                         zoomControl: false,
                         scrollWheelZoom: false,
                         attributionControl: {compact: true}
