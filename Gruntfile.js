@@ -147,6 +147,7 @@ module.exports = function (grunt) {
             '_bower_components/ekko-lightbox/dist/ekko-lightbox.min.css',
             '_bower_components/mapbox.js/mapbox.js',
             '_bower_components/mapbox.js/mapbox.css',
+            '_bower_components/mapbox.js/images/*',
             '_bower_components/knockout/dist/knockout.js',
             'favicon.ico',
             'apple-touch*.png'
