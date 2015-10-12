@@ -197,21 +197,16 @@ module.exports = function (grunt) {
         'test/spec/**/*.js'
       ]
     },
-    requirejs: {
-      compile: {
-        options: {
-          baseUrl: '<%= folders.app %>/js',
-          name: 'shared/main',
-          mainConfigFile: '<%= folders.app %>/js/shared/main.js',
-          out: '<%= folders.dist %>/js/shared/main.js'
-        }
-      }
-    },
     uglify: {
       dist: {
-        files: {
-          '<%= folders.dist %>/_bower_components/requirejs/require.js' : '<%= folders.dist %>/_bower_components/requirejs/require.js'
-        }
+        files: [{
+              '<%= folders.dist %>/_bower_components/requirejs/require.js' : '<%= folders.dist %>/_bower_components/requirejs/require.js'
+            }, {
+              expand: true,
+              cwd: '<%= folders.app %>/js',
+              src: '**/*.js',
+              dest: '<%= folders.dist %>/js'
+          }]
       }
     },
     compass: {
@@ -247,7 +242,6 @@ module.exports = function (grunt) {
     'useminPrepare',
     'concat',
     'cssmin',
-    'requirejs',
     'uglify',
     'usemin',
     ]);
