@@ -8991,7 +8991,7 @@ nav.top {
     padding-right: 110px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1050px) and (min-width: 690px) {
   /* line 95, ../../sass/shared/main-navbar.scss */
   #nav-menu-wrapper {
     width: 600px;

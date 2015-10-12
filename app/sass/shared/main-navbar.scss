@@ -103,7 +103,7 @@ nav.top {
         padding-right: 110px;
     }
 
-    @media (max-width: 1050px) {
+    @media (max-width: 1050px) and (min-width: $small) {
         width:600px;
     }
 }

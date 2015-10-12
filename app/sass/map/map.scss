@@ -1,7 +1,13 @@
 @import "../shared/_base";
 
 #map {
-    height: 600px;
+    @media(min-width: $small) {
+        height: 600px;
+    }
+
+    @media(max-width: $small) {
+        height: 400px;
+    }
 }
 
 #countries {
