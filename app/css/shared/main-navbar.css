@@ -213,7 +213,7 @@ nav.top {
   clear: both;
   max-width: 1400px;
 }
-@media (min-width: 1050px) {
+@media (min-width: 1051px) and (min-width: 690px) {
   /* line 95, ../../sass/shared/main-navbar.scss */
   #nav-menu-wrapper {
     padding-left: 120px;
