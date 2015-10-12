@@ -38,9 +38,7 @@ requirejs(['main'], function(common) {
             self.addMarkers = function() {
                 M.continents.forEach(function(continent) {
                     continent.countries.forEach(function(country) {
-                        country.cities.forEach(function(city) {
-                            L.marker([city.lat, city.lon], {title: city.name}).addTo(self.map);
-                        });
+                        L.marker([country.lat, country.lon], {title: country.name}).addTo(self.map);
                     });
                 });
             };

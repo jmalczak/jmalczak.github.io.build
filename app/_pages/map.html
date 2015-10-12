@@ -15,15 +15,17 @@ styles: |
 </div>
 <div class="container" id="countries">
     <div class="row">
-        <div data-bind="foreach: continents" class="col-md-4">
+        <div data-bind="foreach: continents" class="col-md-12">
             <div class="media">
                 <div class="media-left">
-                    <img class="media-object" src="/img/world/canada.png" data-bind="attr: { alt: name }">
+                    <img class="media-object" 
+                         data-bind="attr: { alt: name, src: '/img/world/'+ img }">
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading"><b data-bind="text: name"></b></h4>
                     <span data-bind="foreach: countries">
-                        <b data-bind="text: name"></b>: <span data-bind="text: ko.utils.arrayMap(cities, function(c) { return c.name }).join(', ')"></span>
+                        <b data-bind="text: name"></b>: 
+                        <span data-bind="text: description"></span>
                     </span>
                 </div>
             </div>
