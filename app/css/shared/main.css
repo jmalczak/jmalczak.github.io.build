@@ -9179,6 +9179,16 @@ a, a:hover, a:focus {
 }
 
 /* line 26, ../../sass/shared/main.scss */
+.margin-small {
+  margin: 10px;
+}
+
+/* line 30, ../../sass/shared/main.scss */
+.padding-small {
+  padding: 10px;
+}
+
+/* line 34, ../../sass/shared/main.scss */
 .ribbon-left {
   z-index: 100;
   background: #384759;
@@ -9192,7 +9202,7 @@ a, a:hover, a:focus {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 690px) {
-  /* line 26, ../../sass/shared/main.scss */
+  /* line 34, ../../sass/shared/main.scss */
   .ribbon-left {
     width: 200px;
     top: 30px;
@@ -9201,7 +9211,7 @@ a, a:hover, a:focus {
   }
 }
 @media (max-width: 690px) {
-  /* line 26, ../../sass/shared/main.scss */
+  /* line 34, ../../sass/shared/main.scss */
   .ribbon-left {
     width: 170px;
     top: 20px;
@@ -9210,7 +9220,7 @@ a, a:hover, a:focus {
   }
 }
 
-/* line 53, ../../sass/shared/main.scss */
+/* line 61, ../../sass/shared/main.scss */
 a[data-toggle="lightbox"] img {
   margin-top: 5px;
   margin-bottom: 5px;
