@@ -94,6 +94,7 @@ table.highlighttable {
 
 /* line 9, ../../sass/index/index-author.scss */
 .author {
+  font-size: 14px;
   margin: auto;
   display: block;
   color: white;
@@ -118,12 +119,12 @@ table.highlighttable {
   }
 }
 
-/* line 26, ../../sass/index/index-author.scss */
+/* line 27, ../../sass/index/index-author.scss */
 .author b {
   color: #ff346f;
 }
 
-/* line 30, ../../sass/index/index-author.scss */
+/* line 31, ../../sass/index/index-author.scss */
 .author a {
   color: #384759;
   text-decoration: none;
@@ -150,7 +151,7 @@ table.highlighttable {
   color: #384759;
 }
 
-/* line 34, ../../sass/index/index-author.scss */
+/* line 35, ../../sass/index/index-author.scss */
 .author-image {
   width: 200px;
   height: 200px;
@@ -161,25 +162,25 @@ table.highlighttable {
   background: url(/img/jakubmalczak.jpg);
 }
 @media (min-width: 690px) {
-  /* line 34, ../../sass/index/index-author.scss */
+  /* line 35, ../../sass/index/index-author.scss */
   .author-image {
     float: left;
     margin-right: 30px;
   }
 }
 
-/* line 48, ../../sass/index/index-author.scss */
+/* line 49, ../../sass/index/index-author.scss */
 .author-description {
   padding-top: 20px;
 }
 @media (min-width: 690px) {
-  /* line 48, ../../sass/index/index-author.scss */
+  /* line 49, ../../sass/index/index-author.scss */
   .author-description {
     font-size: 1.35em;
   }
 }
 @media (max-width: 690px) {
-  /* line 48, ../../sass/index/index-author.scss */
+  /* line 49, ../../sass/index/index-author.scss */
   .author-description {
     font-size: 1.1em;
   }

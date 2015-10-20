@@ -45,6 +45,8 @@ don't have to mess with csproj, sln files.
 To be able to open template in Visual Studio. I have used PROJECT_NAME as a variable replacement key 
 and in connection with simple PowerShell script you can do the same thing. Below you can see how it 
 works in practice.
-<img class="img-responsive center-block padding-small" src="/img/poormansgruntinit/powershell-init-csharp-web.gif" alt="Poor man's powershell grunt-init" />
+<img class="img-responsive center-block padding-small" 
+     src="/img/poormansgruntinit/powershell-init-csharp-web.gif" 
+     alt="Poor man's powershell grunt-init" />
 You can check out example source code on [here](https://github.com/jmalczak/powershell-init-csharp-web) 
 on github. Feel free to fork and and make your own changes. 
