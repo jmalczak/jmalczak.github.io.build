@@ -33,4 +33,4 @@ permalink: pretty
 paginate: 10
 paginate_path: 'page:num'
 markdown: redcarpet
-pygments: true
+highlighter: pygments
