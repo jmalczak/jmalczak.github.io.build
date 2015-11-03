@@ -4,6 +4,7 @@ title: "Setting ASP.NET application auto start from powershell."
 description: "How to set ASP.NET application auto start from powershell script which may be used
 during deployment"
 category: [programming, C#, ASP.NET]
+permalink: /:year/:month/:day/:title.html
 --- 
 ### Why it takes so long
 We all know the feeling when we load our ASP.NET app for the first time, and it takes much longer
