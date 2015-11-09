@@ -182,7 +182,12 @@ define(function() {
                     name: 'South Korea',
                     lat: 35.90776,
                     lon: 127.76692,
-                    description: 'Seoul, DMZ zone, Jeju island'
+                    description: 'Seoul, DMZ zone, Jeju island, Yeosu, Tongyeong, Busan'
+                }, {
+                    name: 'Japan',
+                    lat: 35.6833,
+                    lon: 139.7667,
+                    description: 'Fukuoka, Hiroshima'
                 }
                 ]
             }, {
