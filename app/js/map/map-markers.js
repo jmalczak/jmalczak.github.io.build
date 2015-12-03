@@ -187,7 +187,7 @@ define(function() {
                     name: 'Japan',
                     lat: 35.6833,
                     lon: 139.7667,
-                    description: 'Fukuoka, Hiroshima'
+                    description: 'Fukuoka, Hiroshima, Osaka, Kyoto, Nara, Tokyo, Kawaguchiko'
                 }
                 ]
             }, {
