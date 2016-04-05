@@ -188,7 +188,23 @@ define(function() {
                     lat: 35.6833,
                     lon: 139.7667,
                     description: 'Fukuoka, Hiroshima, Osaka, Kyoto, Nara, Tokyo, Kawaguchiko'
+                }, {
+                    name: 'Philippines',
+                    lat: 14.5995,
+                    lon: 120.9842,
+                    description: 'Cebu, Puerto Princessa, Manila'
+                }, {
+                    name: 'Australia',
+                    lat: -33.8675,
+                    lon: 151.2070,
+                    description: 'Perth, Cairns, Uluru, Melbourne, Sydney'
+                }, {
+                    name: 'New Zealand',
+                    lat: -36.8485,
+                    lon: 174.7633,
+                    description: 'North Island, South Island'
                 }
+
                 ]
             }, {
             name: 'North America',
