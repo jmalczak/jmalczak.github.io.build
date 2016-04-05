@@ -1,4 +1,4 @@
-name: developerabroad.com
+name: malczak.net
 description: Developer Abroad
 author:
   name: Jakub Malczak
@@ -12,9 +12,9 @@ author:
   linkedin: jakubmalczak
   disqus: blogmalczaknet
 
-url: http://developerabroad.com
-title: Developer Abroad
-google_analytics_code: UA-58175776-1
+url: http://malczak.net
+title: Jakub Malczak Developer Abroad
+google_analytics_code: UA-76056004-1
 
 # Jekyll config
 defaults:
